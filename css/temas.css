@@ -1,0 +1,22 @@
+.lista-temas {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.lista-temas .name {
+    background: none repeat scroll 0 0 #308CCF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+}
+.lista-temas .name h3 {
+    color: #D6DFE5;
+    font-size: 20px;
+    padding: 15px 0;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.lista-temas li.tema {
+    padding: 5px 0;
+}
