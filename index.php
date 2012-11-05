@@ -210,6 +210,7 @@
     );
 
     $anuales_chunks = array_chunk($anuales, 2);
+    $mensuales_chunks = array_chunk($mensuales, 2);
 
     function print_bloque($evento){
         ?>
@@ -259,7 +260,7 @@
                     </div>
                 </div>
                 <?php
-                foreach($anuales_chunks as $eventos_row):
+                foreach($mensuales_chunks as $eventos_row):
                     ?>
                     <div class="row">
                         <?php
