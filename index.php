@@ -77,6 +77,15 @@
         ),
  */
     $anuales = array(
+        'TechMeetup' => array(
+            'titulo'    => 'tech.meetupUY',
+            'lugar'     => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+            'fecha'     => '3/11/2012',
+            'horario'   => '',
+            'costo'     => '',
+            'link'      => 'http://tech.meetup.uy',
+            'descripcion' => ''
+        ),
         'devfest' => array(
             'titulo'    => 'DevFest UY',
             'lugar'     => 'Universidad Católica del Uruguay',
@@ -150,15 +159,7 @@
             'link'      => 'http://playavalley.com/',
             'descripcion' => ''
         ),
-        'TechMeetup' => array(
-            'titulo'    => 'tech.meetupUY',
-            'lugar'     => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-            'fecha'     => '11/2013',
-            'horario'   => '',
-            'costo'     => '',
-            'link'      => 'http://tech.meetup.uy',
-            'descripcion' => ''
-        ),
+
     );
 
     $mensuales = array(
