@@ -181,7 +181,7 @@
             'descripcion' => ''
         ),
         'techNbeers' => array(
-            'titulo'    => 'TecnNbeers',
+            'titulo'    => 'TechNbeers',
             'lugar'     => 'Asia de Cuba, Montevideo',
             'fecha'     => '4o jueves de mes',
             'horario'   => '',
