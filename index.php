@@ -89,7 +89,7 @@
         'devfest' => array(
             'titulo'    => 'DevFest UY',
             'lugar'     => 'Universidad Católica del Uruguay',
-            'fecha'     => '4/11/2012',
+            'fecha'     => '5/11/2012',
             'horario'   =>  '15:00 a 20:00',
             'costo'     => '',
             'link'      => 'http://gdg.uy/devfest',
