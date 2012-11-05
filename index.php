@@ -171,7 +171,7 @@
             'link'      => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group',
             'descripcion' => ''
         ),
-        'techNbeers' => array(
+        'rubyMeetup' => array(
             'titulo'    => 'Ruby Meetup',
             'lugar'     => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
             'fecha'     => '2o martes de mes',
