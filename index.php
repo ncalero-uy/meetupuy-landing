@@ -198,15 +198,6 @@
             'link'      => 'http://opencoffeemvd.org/',
             'descripcion' => ''
         ),
-        'techNbeers' => array(
-            'titulo'    => 'TecnNbeers',
-            'lugar'     => 'Asia de Cuba, Montevideo',
-            'fecha'     => '4o jueves',
-            'horario'   => '',
-            'costo'     => '',
-            'link'      => 'http://montevideovalley.com/',
-            'descripcion' => ''
-        ),
     );
 
     $anuales_chunks = array_chunk($anuales, 2);
