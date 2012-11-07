@@ -223,6 +223,31 @@
         <?php
     }
 ?>
+        <div id="landing">
+          <div class="container">
+            <div class="row">
+              <div class="span8 offset2 txt-middle">
+                <div id="myCarousel" class="carousel slide">
+                  <h3>Ediciones anteriores:</h3>
+                  <div class="carousel-inner">
+                            <?php
+
+                                for($i=1; $i<=14; $i++){
+                                    $active = '';
+                                    if($i == 1){
+                                        $active = 'active';
+                                    }
+                                    echo '<div class="'.$active.' item"><a href="http://tech.meetup.uy" target="_blank"><img alt="" src="http://tech.meetup.uy/img/2012_presentacion/tm2012-'.sprintf('%02d', $i).'.jpg"></a></div>';
+                                }
+                            ?>
+                    </div>
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev"><i class="icon-chevron-left"></i></a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next"><i class="icon-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
         <div id="content">
             <div class="container">
                 <div class="row">
