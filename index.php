@@ -65,6 +65,14 @@ $anuales = array(
         'link' => 'https://www.owasp.org/index.php/AppSecLatam2012',
         'descripcion' => ''
     ),
+    'MoodleMoot' => array(
+        'titulo' => 'MoodleMoot Uruguay',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '22/11/2012 a 23/11/2012',
+        //'horario' => '8:00 a 17:30',
+        'link' => 'http://evento.moodlemoot.org.uy/',
+        'descripcion' => ''
+    ),
     'DEVLATAM' => array(
         'titulo' => 'Desarrollando América Latina',
         'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
