@@ -131,6 +131,15 @@ $mensuales = array(
         'link' => 'http://www.meetup.com/rubymvd/',
         'descripcion' => ''
     ),
+    'MvdJsMeetup' => array(
+        'titulo' => 'MVDJS Meetup',
+        'lugar' => 'Sophilabs, Marco Bruto 1504, Montevideo',
+        'fecha' => '',
+        'horario' => '20:00',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/mvd-js/',
+        'descripcion' => ''
+    ),
     'techNbeers' => array(
         'titulo' => 'TechNbeers',
         'lugar' => 'Asia de Cuba, Montevideo',
