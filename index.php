@@ -9,7 +9,9 @@ function print_bloque($evento) {
         <h2 class="sub"><a href="<?= $evento['link']; ?>" target="_blank"><?= $evento['titulo']; ?></a></h2>
         <ul class="unstyled">
             <li><i class="icon-map-marker"></i> <?= $evento['lugar']; ?></li>
+            <?php if (!empty($evento['fecha']) && $evento['fecha'] != ''): ?>
             <li><i class="icon-calendar"></i> <?= $evento['fecha']; ?></li>
+            <?php endif; ?>
             <?php if (!empty($evento['horario']) && $evento['horario'] != ''): ?>
                 <li><i class="icon-time"></i> <?= $evento['horario']; ?></li>
             <?php endif; ?>
@@ -98,9 +100,10 @@ shuffle($imagenes_ediciones_anteriores);
                 </div>
             </div>
         </div>
-
+        <!--
         <div id="landing">
             <div class="container">
+
                 <div class="row">
                     <div class="span8 offset2 txt-middle">
                         <div id="myCarousel" class="carousel slide">
@@ -133,8 +136,10 @@ shuffle($imagenes_ediciones_anteriores);
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
+        -->
         <div id="content">
             <div class="container">
                 <div class="row">
