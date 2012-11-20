@@ -19,10 +19,25 @@ function print_bloque($evento) {
             <?php if (!empty($evento['costo']) && $evento['costo'] != ''): ?>
                 <li><i class="icon-money"></i> <?= $evento['costo']; ?></li>
             <?php endif; ?>
+                <?php
+                    if (!empty($evento['tags']) && $evento['tags'] != ''){
+                        echo '<li><i class="icon-tag"></i> ';
+                        $tags_array = explode(',',$evento['tags']);
+                        foreach($tags_array as $tag){
+                            $tag = trim($tag);
+                            echo '<span class="label label-info">'.$tag.'</span>'
+                            ?>
+
+                            <?php
+                        }
+                        echo '</li>';
+                 }
+                 ?>
         </ul>
     </div>
     <?php
 }
+
 
 $imagenes_ediciones_anteriores = array();
 //tech.meetup.uy

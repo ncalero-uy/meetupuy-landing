@@ -120,7 +120,8 @@ $mensuales = array(
         'horario' => '19:00',
         'costo' => '',
         'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'mysql,linux,lamp, nosql,database,linux'
     ),
     'rubyMeetup' => array(
         'titulo' => 'Ruby Meetup',
@@ -129,7 +130,8 @@ $mensuales = array(
         'horario' => '',
         'costo' => '',
         'link' => 'http://www.meetup.com/rubymvd/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'ruby,rails,sinatra,web'
     ),
     'MvdJsMeetup' => array(
         'titulo' => 'MVDJS Meetup',
@@ -138,7 +140,8 @@ $mensuales = array(
         'horario' => '20:00',
         'costo' => '',
         'link' => 'http://www.meetup.com/mvd-js/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'javscript, nodeJS, html5, frontend, css'
     ),
     'techNbeers' => array(
         'titulo' => 'TechNbeers',
@@ -147,7 +150,8 @@ $mensuales = array(
         'horario' => '',
         'costo' => '',
         'link' => 'http://montevideovalley.com/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'proyectos, tecnologia'
     ),
     'OpenCoffee' => array(
         'titulo' => 'Open Coffee',
@@ -156,6 +160,7 @@ $mensuales = array(
         'horario' => '9:00',
         'costo' => '',
         'link' => 'http://opencoffeemvd.org/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags' => 'proyectos, negocios, inversion, emprendedores'
     ),
 );
