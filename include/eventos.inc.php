@@ -118,13 +118,14 @@ $anuales = array(
 $mensuales = array(
     'mysqlMeetup' => array(
         'titulo' => 'Mysql Meetup',
+        'subtitulo' => 'Meetup de Mysql en Montevideo',
         'lugar' => 'UTU Buceo / Guruhub (ver link)',
         'fecha' => '2o jueves de mes',
         'horario' => '19:00',
         'costo' => '',
         'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group',
         'descripcion' => '',
-        'tags'=>'mysql,linux,lamp, nosql,database,linux'
+        'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
     ),
     'rubyMeetup' => array(
         'titulo' => 'Ruby Meetup',
@@ -138,13 +139,25 @@ $mensuales = array(
     ),
     'MvdJsMeetup' => array(
         'titulo' => 'MVDJS Meetup',
+        'subtitulo' => 'Meetup de Javascript en Montevideo',
         'lugar' => 'Sophilabs, Marco Bruto 1504, Montevideo',
         'fecha' => '1er jueves de mes',
         'horario' => '20:00',
         'costo' => '',
         'link' => 'http://www.meetup.com/mvd-js/',
         'descripcion' => '',
-        'tags'=>'javscript, nodeJS, html5, frontend, css'
+        'tags'=>'javascript, nodeJS, html5, frontend, css'
+    ),
+    'GUGMVD' => array(
+        'titulo' => 'GUG MVD',
+        'subtitulo' => 'Comunidad GeneXus en Montevideo',
+        'lugar' => 'CDC - Latu, Av. Italia 6201',
+        'fecha' => '',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://gugmontevideo.wordpress.com/',
+        'descripcion' => '',
+        'tags'=>'Genexus'
     ),
     'techNbeers' => array(
         'titulo' => 'TechNbeers',
