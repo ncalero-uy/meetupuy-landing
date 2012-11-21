@@ -20,15 +20,8 @@
   ),
  */
 $anuales = array(
-    'TechMeetup' => array(
-        'titulo' => 'tech.meetupUY',
-        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '3/11/2012',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://tech.meetup.uy',
-        'descripcion' => ''
-    ),
+    /*
+
     'devfest' => array(
         'titulo' => 'DevFest UY',
         'lugar' => 'Universidad Católica del Uruguay',
@@ -66,6 +59,7 @@ $anuales = array(
         'link' => 'https://www.owasp.org/index.php/AppSecLatam2012',
         'descripcion' => ''
     ),
+    */
     'MoodleMoot' => array(
         'titulo' => 'MoodleMoot Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
@@ -110,6 +104,15 @@ $anuales = array(
         'link' => 'http://playavalley.com/',
         'descripcion' => ''
     ),
+    'TechMeetup' => array(
+        'titulo' => 'tech.meetupUY',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '11/2012',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://tech.meetup.uy',
+        'descripcion' => ''
+    ),
 );
 
 $mensuales = array(
@@ -127,7 +130,7 @@ $mensuales = array(
         'titulo' => 'Ruby Meetup',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
         'fecha' => '2o martes de mes',
-        'horario' => '',
+        'horario' => '19:30',
         'costo' => '',
         'link' => 'http://www.meetup.com/rubymvd/',
         'descripcion' => '',
@@ -136,7 +139,7 @@ $mensuales = array(
     'MvdJsMeetup' => array(
         'titulo' => 'MVDJS Meetup',
         'lugar' => 'Sophilabs, Marco Bruto 1504, Montevideo',
-        'fecha' => '',
+        'fecha' => '1er jueves de mes',
         'horario' => '20:00',
         'costo' => '',
         'link' => 'http://www.meetup.com/mvd-js/',
