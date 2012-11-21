@@ -7,6 +7,7 @@ function print_bloque($evento) {
     ?>
     <div class="span5 well2">
         <h2 class="sub"><a href="<?= $evento['link']; ?>" target="_blank"><?= $evento['titulo']; ?></a></h2>
+        <h4><?php if(isset($evento['subtitulo'])) { echo $evento['subtitulo']; } ?></h4>
         <ul class="unstyled">
             <li><i class="icon-map-marker"></i> <?= $evento['lugar']; ?></li>
             <?php if (!empty($evento['fecha']) && $evento['fecha'] != ''): ?>
