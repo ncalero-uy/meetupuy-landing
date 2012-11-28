@@ -59,7 +59,7 @@ $anuales = array(
         'link' => 'https://www.owasp.org/index.php/AppSecLatam2012',
         'descripcion' => ''
     ),
-    */
+
     'MoodleMoot' => array(
         'titulo' => 'MoodleMoot Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
@@ -68,6 +68,7 @@ $anuales = array(
         'link' => 'http://evento.moodlemoot.org.uy/',
         'descripcion' => ''
     ),
+    */
     'DEVLATAM' => array(
         'titulo' => 'Desarrollando América Latina',
         'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
@@ -75,6 +76,15 @@ $anuales = array(
         'horario' => '9:00 a 17:00',
         'costo' => '',
         'link' => 'https://eventioz.com/DALuruguay',
+        'descripcion' => ''
+    ),
+    'NWUruguay' => array(
+        'titulo' => '#NotWorking2012',
+        'lugar' => 'Bodega Spinoglio, Montevideo',
+        'fecha' => '12/12/2012',
+        'horario' => '19:00',
+        'costo' => '',
+        'link' => 'http://notworking.com.uy/',
         'descripcion' => ''
     ),
     'Puntatech' => array(
