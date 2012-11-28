@@ -76,7 +76,8 @@ $anuales = array(
         'horario' => '9:00 a 17:00',
         'costo' => '',
         'link' => 'https://eventioz.com/DALuruguay',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'desarrollo, oss, datos abiertos'
     ),
     'NWUruguay' => array(
         'titulo' => '#NotWorking2012',
@@ -85,7 +86,8 @@ $anuales = array(
         'horario' => '19:00',
         'costo' => '',
         'link' => 'http://notworking.com.uy/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'emprendedores, startups'
     ),
     'Puntatech' => array(
         'titulo' => 'Punta Tech Meetup',
@@ -94,7 +96,8 @@ $anuales = array(
         'horario' => '19:00',
         'costo' => 'por invitación',
         'link' => 'http://puntameetup.com/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'negocios, startups, emprendedores, inversores'
     ),
     'RybConf' => array(
         'titulo' => 'RubyConf',
@@ -103,7 +106,8 @@ $anuales = array(
         'horario' => '',
         'costo' => 'n/d',
         'link' => 'http://www.rubyconfuruguay.org',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'ruby, desarrollo'
     ),
     'PlayaValley' => array(
         'titulo' => '#PlayaValley',
@@ -112,7 +116,8 @@ $anuales = array(
         'horario' => '',
         'costo' => '',
         'link' => 'http://playavalley.com/',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'media, web'
     ),
     'TechMeetup' => array(
         'titulo' => 'tech.meetupUY',
@@ -121,7 +126,8 @@ $anuales = array(
         'horario' => '',
         'costo' => '',
         'link' => 'http://tech.meetup.uy',
-        'descripcion' => ''
+        'descripcion' => '',
+        'tags'=>'desarrollo, tecnologia, IT'
     ),
 );
 
