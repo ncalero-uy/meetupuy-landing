@@ -79,6 +79,17 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'desarrollo, oss, datos abiertos'
     ),
+    'SegURU' => array(
+        'titulo' => 'SegURU Summit 2012',
+        'lugar' => 'Plaza Independencia 812 (UNIT), Montevideo',
+        'fecha' => '5/12/2012',
+        'horario' => '18:30',
+        'costo' => '',
+        'link' => 'http://uruguay.issa.org/seguru-summit-2012/',
+        'descripcion' => '',
+        'tags'=>'seguridad',
+        'twitter' => "@ISSAUruguay"
+    ),
     'NWUruguay' => array(
         'titulo' => '#NotWorking2012',
         'lugar' => 'Bodega Spinoglio, Montevideo',
