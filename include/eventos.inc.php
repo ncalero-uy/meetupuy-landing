@@ -68,7 +68,7 @@ $anuales = array(
         'link' => 'http://evento.moodlemoot.org.uy/',
         'descripcion' => ''
     ),
-    */
+
     'DEVLATAM' => array(
         'titulo' => 'Desarrollando América Latina',
         'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
@@ -100,6 +100,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'emprendedores, startups'
     ),
+    */
     'Puntatech' => array(
         'titulo' => 'Punta Tech Meetup',
         'lugar' => 'Fundación Pablo Atchugarry, Punta del Este, Maldonado',
@@ -111,7 +112,7 @@ $anuales = array(
         'tags'=>'negocios, startups, emprendedores, inversores'
     ),
     'RybConf' => array(
-        'titulo' => 'RubyConf',
+        'titulo' => 'RubyConf Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '3/2013',
         'horario' => '',
