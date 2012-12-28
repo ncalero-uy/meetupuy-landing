@@ -111,13 +111,25 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'negocios, startups, emprendedores, inversores'
     ),
-    'RybConf' => array(
+    'GGJUY' => array(
+        'titulo' => 'Global Game Jam',
+        'lugar' => '<a href="http://globalgamejam.org/sites/2013/universidad-ortantel" target="_blank">Auditorio Torre de las Telecomunicaciones</a> / <a href="http://globalgamejam.org/sites/2013/escuela-de-artes-visuales" target="_blank">A+ Escuela de Artes Visuales</a>',
+        'fecha' => '25 al 27/1/2013',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://uruguaygamer.com/?p=1157',
+        'tw_hastag' => '#GGJUY',
+        'descripcion' => '',
+        'tags'=>'gaming'
+    ),
+    'RubybConf' => array(
         'titulo' => 'RubyConf Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '3/2013',
+        'fecha' => '22 y 23/3/2013',
         'horario' => '',
         'costo' => 'n/d',
         'link' => 'http://www.rubyconfuruguay.org',
+        'twitter' => '#rubyconfuy',
         'descripcion' => '',
         'tags'=>'ruby, desarrollo'
     ),
