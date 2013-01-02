@@ -20,20 +20,34 @@ function print_bloque($evento) {
             <?php if (!empty($evento['costo']) && $evento['costo'] != ''): ?>
                 <li><i class="icon-money"></i> <?= $evento['costo']; ?></li>
             <?php endif; ?>
-                <?php
-                    if (!empty($evento['tags']) && $evento['tags'] != ''){
-                        echo '<li><i class="icon-tag"></i> ';
-                        $tags_array = explode(',',$evento['tags']);
-                        foreach($tags_array as $tag){
-                            $tag = trim($tag);
-                            echo '<span class="label label-info">'.$tag.'</span>'
-                            ?>
 
-                            <?php
-                        }
-                        echo '</li>';
-                 }
-                 ?>
+            <?php
+                if (!empty($evento['links_otros']) && is_array($evento['links_otros']) && count($evento['links_otros'])> 0){
+                    echo '<li class="otros-links"><i class="icon-share"></i> ';
+                    foreach($evento['links_otros'] as $link_otro){
+                        echo '<span><a rel="tooltip" href="'.$link_otro['uri'].'" target="_blank" alt="'.$link_otro['alt'].'" title="'.$link_otro['alt'].'">'.$link_otro['txt'].'</a></span>'
+                        ?>
+
+                        <?php
+                    }
+                    echo '</li>';
+             }
+             ?>
+
+            <?php
+                if (!empty($evento['tags']) && $evento['tags'] != ''){
+                    echo '<li><i class="icon-tag"></i> ';
+                    $tags_array = explode(',',$evento['tags']);
+                    foreach($tags_array as $tag){
+                        $tag = trim($tag);
+                        echo '<span class="label label-info">'.$tag.'</span>'
+                        ?>
+
+                        <?php
+                    }
+                    echo '</li>';
+             }
+             ?>
         </ul>
     </div>
     <?php
@@ -271,6 +285,7 @@ foreach ($mensuales_chunks as $eventos_row):
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-tooltip.js"></script>
         <script>
             $(document).ready(function(){
                 $("#totop").click(function () {
@@ -279,6 +294,8 @@ foreach ($mensuales_chunks as $eventos_row):
                     }, 300);
                     return false;
                 });
+
+                $(".otros-links a").tooltip();
             });
         </script>
 
