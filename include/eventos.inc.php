@@ -176,29 +176,6 @@ $anuales = array(
 );
 
 $mensuales = array(
-    'mysqlMeetup' => array(
-        'id'  =>  'mysqlmeetup',
-        'titulo' => 'Mysql Meetup',
-        'subtitulo' => 'Meetup de Mysql en Montevideo',
-        'lugar' => 'UTU Buceo / Guruhub (ver link)',
-        'fecha' => '2o jueves de mes',
-        'horario' => '19:00',
-        'costo' => '',
-        'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group',
-        'descripcion' => '',
-        'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
-    ),
-    'rubyMeetup' => array(
-        'id'  =>  'rubymeetup',
-        'titulo' => 'Ruby Meetup',
-        'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
-        'fecha' => '2o martes de mes',
-        'horario' => '19:30',
-        'costo' => '',
-        'link' => 'http://www.meetup.com/rubymvd/',
-        'descripcion' => '',
-        'tags'=>'ruby,rails,sinatra,web'
-    ),
     'MvdJsMeetup' => array(
         'id'  =>  'mvdjsmeetup',
         'titulo' => 'MVDJS Meetup',
@@ -211,17 +188,57 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'javascript, nodeJS, html5, frontend, css'
     ),
-    'GUGMVD' => array(
-        'id'  =>  'gugmvd',
-        'titulo' => 'GUG MVD',
-        'subtitulo' => 'Comunidad GeneXus en Montevideo',
-        'lugar' => 'CDC - Latu, Av. Italia 6201',
-        'fecha' => '',
-        'horario' => '',
+    'OpenCoffee' => array(
+        'id'  =>  'opencoffee',
+        'titulo' => 'Open Coffee',
+        'lugar' => 'Amaretto Bakery Café',
+        'fecha' => '2o Martes de mes',
+        'horario' => '9:00',
         'costo' => '',
-        'link' => 'http://gugmontevideo.wordpress.com/',
+        'link' => 'http://opencoffeemvd.org/',
         'descripcion' => '',
-        'tags'=>'Genexus'
+        'tags' => 'proyectos, negocios, inversion, emprendedores'
+    ),
+    'rubyMeetup' => array(
+        'id'  =>  'rubymeetup',
+        'titulo' => 'Ruby Meetup',
+        'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
+        'fecha' => '2o martes de mes',
+        'horario' => '19:30',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/rubymvd/',
+        'descripcion' => '',
+        'tags'=>'ruby,rails,sinatra,web'
+    ),
+    'mysqlMeetup' => array(
+        'id'  =>  'mysqlmeetup',
+        'titulo' => 'Mysql Meetup',
+        'subtitulo' => 'Meetup de Mysql en Montevideo',
+        'lugar' => 'UTU Buceo / Guruhub (ver link)',
+        'fecha' => '2o jueves de mes',
+        'horario' => '19:00',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group',
+        'descripcion' => '',
+        'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
+    ),
+    'scalaMeetup' => array(
+        'id'  =>  'scalameetup',
+        'titulo' => 'Scala Meetup',
+        'lugar' => 'ver web',
+        'fecha' => '3er jueves de mes',
+        'horario' => '20:00',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/Scala-Meetup-UY/',
+        'descripcion' => '',
+        'tags'=>'scala',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'blog',
+                    'uri' => 'http://scala.meetup.uy',
+                    'alt' => 'blog'
+                ),
+            ),
     ),
     'techNbeers' => array(
         'id'  =>  'technbeers',
@@ -234,15 +251,17 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'proyectos, tecnologia'
     ),
-    'OpenCoffee' => array(
-        'id'  =>  'opencoffee',
-        'titulo' => 'Open Coffee',
-        'lugar' => 'Amaretto Bakery Café',
-        'fecha' => '2o Martes de mes',
-        'horario' => '9:00',
+
+    'GUGMVD' => array(
+        'id'  =>  'gugmvd',
+        'titulo' => 'GUG MVD',
+        'subtitulo' => 'Comunidad GeneXus en Montevideo',
+        'lugar' => 'CDC - Latu, Av. Italia 6201',
+        'fecha' => '',
+        'horario' => '',
         'costo' => '',
-        'link' => 'http://opencoffeemvd.org/',
+        'link' => 'http://gugmontevideo.wordpress.com/',
         'descripcion' => '',
-        'tags' => 'proyectos, negocios, inversion, emprendedores'
+        'tags'=>'Genexus'
     ),
 );
