@@ -23,6 +23,7 @@ $anuales = array(
     /*
 
     'devfest' => array(
+        'id'    => 'devfest',
         'titulo' => 'DevFest UY',
         'lugar' => 'Universidad Católica del Uruguay',
         'fecha' => '5/11/2012',
@@ -32,6 +33,7 @@ $anuales = array(
         'descripcion' => 'La temporada de DevFests ya ha comenzado en el mundo y en Uruguay se desarrollara el 5 de Noviembre desde las 15:00 en la Universidad Católica. El evento tendrá formato de conferencia donde participaran Ingenieros de Google y destacados expositores de la comunidad local donde se abordaran temas como Android, Go Language, HTML5, WebRTC, Google App Engine, Google APIs, YouTube APIs, Google Analytics entre otros.'
     ),
     '5MVDVALLEY' => array(
+        'id'    => 'mvdvalley',
         'titulo' => '5MVDVALLEY',
         'lugar' => 'Luis Alberto de Herrera 1248 (Auditorium WTC), Montevideo.',
         'fecha' => '10/11/2012',
@@ -42,6 +44,7 @@ $anuales = array(
         'descripcion' => ''
     ),
     'PyconUY' => array(
+        'id'  =>  'pycon',
         'titulo' => 'Pycon 2012',
         'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
         'fecha' => '10/11/2012 a 11/11/2012',
@@ -51,6 +54,7 @@ $anuales = array(
         'descripcion' => ''
     ),
     'OWASP' => array(
+        'id'  =>  'owasp',
         'titulo' => 'OWASP AppSec 2012',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '18/11/2012 a 21/11/2012',
@@ -61,6 +65,7 @@ $anuales = array(
     ),
 
     'MoodleMoot' => array(
+        'id'  =>  'moodlemoot',
         'titulo' => 'MoodleMoot Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '22/11/2012 a 23/11/2012',
@@ -70,6 +75,7 @@ $anuales = array(
     ),
 
     'DEVLATAM' => array(
+        'id'  =>  'dal',
         'titulo' => 'Desarrollando América Latina',
         'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
         'fecha' => '1/12/2012 a 2/12/2012',
@@ -80,6 +86,7 @@ $anuales = array(
         'tags'=>'desarrollo, oss, datos abiertos'
     ),
     'SegURU' => array(
+        'id'  =>  'segurusummit',
         'titulo' => 'SegURU Summit 2012',
         'lugar' => 'Plaza Independencia 812 (UNIT), Montevideo',
         'fecha' => '5/12/2012',
@@ -91,6 +98,7 @@ $anuales = array(
         'twitter' => "@ISSAUruguay"
     ),
     'NWUruguay' => array(
+        'id'  =>  'notworking',
         'titulo' => '#NotWorking2012',
         'lugar' => 'Bodega Spinoglio, Montevideo',
         'fecha' => '12/12/2012',
@@ -102,6 +110,7 @@ $anuales = array(
     ),
     */
     'Puntatech' => array(
+        'id'  =>  'puntatechmeetup',
         'titulo' => 'Punta Tech Meetup',
         'lugar' => 'Fundación Pablo Atchugarry, Punta del Este, Maldonado',
         'fecha' => '8/1/2013',
@@ -112,6 +121,7 @@ $anuales = array(
         'tags'=>'negocios, startups, emprendedores, inversores'
     ),
     'GGJUY' => array(
+        'id'  =>  'globalgamejam',
         'titulo' => 'Global Game Jam',
         'lugar' => '<a href="http://globalgamejam.org/sites/2013/universidad-ortantel" target="_blank">Auditorio Torre de las Telecomunicaciones</a> / <a href="http://globalgamejam.org/sites/2013/escuela-de-artes-visuales" target="_blank">A+ Escuela de Artes Visuales</a>',
         'fecha' => '25 al 27/1/2013',
@@ -123,6 +133,7 @@ $anuales = array(
         'tags'=>'gaming'
     ),
     'RubybConf' => array(
+        'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '22 y 23/3/2013',
@@ -141,6 +152,7 @@ $anuales = array(
             ),
     ),
     'PlayaValley' => array(
+        'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
         'lugar' => 'Centro Cultural La Paloma, La Paloma, Rocha',
         'fecha' => '5/2013',
@@ -151,6 +163,7 @@ $anuales = array(
         'tags'=>'media, web'
     ),
     'TechMeetup' => array(
+        'id'  =>  'techmeetupuy',
         'titulo' => 'tech.meetupUY',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '11/2013',
@@ -164,6 +177,7 @@ $anuales = array(
 
 $mensuales = array(
     'mysqlMeetup' => array(
+        'id'  =>  'mysqlmeetup',
         'titulo' => 'Mysql Meetup',
         'subtitulo' => 'Meetup de Mysql en Montevideo',
         'lugar' => 'UTU Buceo / Guruhub (ver link)',
@@ -175,6 +189,7 @@ $mensuales = array(
         'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
     ),
     'rubyMeetup' => array(
+        'id'  =>  'rubymeetup',
         'titulo' => 'Ruby Meetup',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
         'fecha' => '2o martes de mes',
@@ -185,6 +200,7 @@ $mensuales = array(
         'tags'=>'ruby,rails,sinatra,web'
     ),
     'MvdJsMeetup' => array(
+        'id'  =>  'mvdjsmeetup',
         'titulo' => 'MVDJS Meetup',
         'subtitulo' => 'Meetup de Javascript en Montevideo',
         'lugar' => 'ver web.',
@@ -196,6 +212,7 @@ $mensuales = array(
         'tags'=>'javascript, nodeJS, html5, frontend, css'
     ),
     'GUGMVD' => array(
+        'id'  =>  'gugmvd',
         'titulo' => 'GUG MVD',
         'subtitulo' => 'Comunidad GeneXus en Montevideo',
         'lugar' => 'CDC - Latu, Av. Italia 6201',
@@ -207,6 +224,7 @@ $mensuales = array(
         'tags'=>'Genexus'
     ),
     'techNbeers' => array(
+        'id'  =>  'technbeers',
         'titulo' => 'TechNbeers',
         'lugar' => 'Asia de Cuba, Montevideo',
         'fecha' => '4o jueves de mes',
@@ -217,6 +235,7 @@ $mensuales = array(
         'tags'=>'proyectos, tecnologia'
     ),
     'OpenCoffee' => array(
+        'id'  =>  'opencoffee',
         'titulo' => 'Open Coffee',
         'lugar' => 'Amaretto Bakery Café',
         'fecha' => '2o Martes de mes',
