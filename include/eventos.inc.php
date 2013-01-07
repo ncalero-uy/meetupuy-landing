@@ -162,6 +162,17 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'media, web'
     ),
+    'encGenexus' => array(
+        'id'  =>  'encgenexus',
+        'titulo' => 'XXIII Encuentro GeneXus',
+        'lugar' => 'Hotel Radisson, Montevideo',
+        'fecha' => '30/9/2013 a 2/10/2013',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://www.genexus.com/',
+        'descripcion' => '',
+        'tags'=>'genexus'
+    ),
     'TechMeetup' => array(
         'id'  =>  'techmeetupuy',
         'titulo' => 'tech.meetupUY',
@@ -234,7 +245,7 @@ $mensuales = array(
         'tags'=>'scala',
         'links_otros'=>array(
                 array(
-                    'txt' => 'blog',
+                    'txt' => 'blogx',
                     'uri' => 'http://scala.meetup.uy',
                     'alt' => 'blog'
                 ),
