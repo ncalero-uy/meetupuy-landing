@@ -149,6 +149,11 @@ $anuales = array(
                     'uri' => 'https://docs.google.com/spreadsheet/viewform?formkey=dFExNnBYcndLSFBsUzh5ZVIzUHZOd3c6MQ&ifq',
                     'alt' => 'Request for proposal'
                 ),
+                array(
+                    'txt' => 'blog',
+                    'uri' => 'http://rubyconfuruguay.github.com/news.html',
+                    'alt' => 'blog'
+                ),
             ),
     ),
     'PlayaValley' => array(
