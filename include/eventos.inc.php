@@ -151,7 +151,7 @@ $anuales = array(
                 ),
                 array(
                     'txt' => 'blog',
-                    'uri' => 'http://rubyconfuruguay.github.com/news.html',
+                    'uri' => 'http://rubyconfuruguay.org/news.html',
                     'alt' => 'blog'
                 ),
             ),
