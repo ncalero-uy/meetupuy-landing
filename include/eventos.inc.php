@@ -108,7 +108,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'emprendedores, startups'
     ),
-    */
+
     'Puntatech' => array(
         'id'  =>  'puntatechmeetup',
         'titulo' => 'Punta Tech Meetup',
@@ -120,6 +120,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'negocios, startups, emprendedores, inversores'
     ),
+    */
     'GGJUY' => array(
         'id'  =>  'globalgamejam',
         'titulo' => 'Global Game Jam',
