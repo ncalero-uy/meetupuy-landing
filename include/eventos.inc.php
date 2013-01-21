@@ -251,7 +251,7 @@ $mensuales = array(
         'tags'=>'scala',
         'links_otros'=>array(
                 array(
-                    'txt' => 'blogx',
+                    'txt' => 'blog',
                     'uri' => 'http://scala.meetup.uy',
                     'alt' => 'blog'
                 ),
