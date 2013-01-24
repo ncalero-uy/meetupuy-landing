@@ -157,6 +157,30 @@ $anuales = array(
                 ),
             ),
     ),
+    'CibSE' => array(
+        'id'  =>  'cibse',
+        'titulo' => 'CibSE',
+        'lugar' => '<a href="http://cibse2013.ort.edu.uy/es/Presentacion.php" target="_blank">Campus de la Universidad ORT Uruguay</a> / <a href="http://globalgamejam.org/sites/2013/escuela-de-artes-visuales" target="_blank">A+ Escuela de Artes Visuales</a>',
+        'fecha' => '8 al 10/4/2013',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://cibse2013.ort.edu.uy/SE2013/es/Inicio.htm',
+        'tw_hastag' => '#cibse',
+        'descripcion' => 'XVI Congreso Iberoamericano en Ingeniería de Software',
+        'tags'=>'desarrollo, ingenieria',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'CFP',
+                    'uri' => 'cibse2013.ort.edu.uy/SE2013/es/Cibse2013se.pdf',
+                    'alt' => 'Call for Papers'
+                ),
+                array(
+                    'txt' => 'Apoyo',
+                    'uri' => 'http://cibse2013.ort.edu.uy/es/Empresas.htm',
+                    'alt' => 'Apoyo empresas'
+                ),
+            ),
+    ),
     'PlayaValley' => array(
         'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
