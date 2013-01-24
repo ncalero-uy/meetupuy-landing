@@ -160,7 +160,7 @@ $anuales = array(
     'CibSE' => array(
         'id'  =>  'cibse',
         'titulo' => 'CibSE',
-        'lugar' => '<a href="http://cibse2013.ort.edu.uy/es/Presentacion.php" target="_blank">Campus de la Universidad ORT Uruguay</a> / <a href="http://globalgamejam.org/sites/2013/escuela-de-artes-visuales" target="_blank">A+ Escuela de Artes Visuales</a>',
+        'lugar' => '<a href="http://cibse2013.ort.edu.uy/es/Presentacion.php" target="_blank">Campus de la Universidad ORT Uruguay</a>',
         'fecha' => '8 al 10/4/2013',
         'horario' => '',
         'costo' => 'gratis',
@@ -175,7 +175,7 @@ $anuales = array(
                     'alt' => 'Call for Papers'
                 ),
                 array(
-                    'txt' => 'Apoyo',
+                    'txt' => 'Apoyo empresas',
                     'uri' => 'http://cibse2013.ort.edu.uy/es/Empresas.htm',
                     'alt' => 'Apoyo empresas'
                 ),
