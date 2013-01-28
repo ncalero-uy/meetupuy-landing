@@ -133,6 +133,21 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'gaming'
     ),
+     */
+    'PerconMysqlUniv' => array(
+        'id'  =>  'PerconMysqlUniv',
+        'titulo' => 'Percona MySQL University',
+        'lugar' => 'Universidad ORT, Cuareim 1451',
+        'fecha' => '5/2/2013',
+        'horario' => '8:00 a 18:30',
+        'costo' => 'gratis',
+        'link' => 'http://percona-mysql-university-montevideo-2013.eventbrite.com/',
+        'tw_hastag' => '',
+        'descripcion' => '',
+        'tags'=>'mysql, db, XtraDB, replication, sphinx',
+        'links_otros'=>array(
+            ),
+    ),
     'RubybConf' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay',
@@ -155,21 +170,6 @@ $anuales = array(
                     'uri' => 'http://rubyconfuruguay.org/news.html',
                     'alt' => 'blog'
                 ),
-            ),
-    ),
-     */
-    'PerconMysqlUniv' => array(
-        'id'  =>  'PerconMysqlUniv',
-        'titulo' => 'Percona MySQL University',
-        'lugar' => 'Universidad ORT, Cuareim 1451',
-        'fecha' => '5/2/2013',
-        'horario' => '8:00 a 18:30',
-        'costo' => 'gratis',
-        'link' => 'http://percona-mysql-university-montevideo-2013.eventbrite.com/',
-        'tw_hastag' => '',
-        'descripcion' => '',
-        'tags'=>'mysql, db, XtraDB, replication, sphinx',
-        'links_otros'=>array(
             ),
     ),
     'CibSE' => array(
