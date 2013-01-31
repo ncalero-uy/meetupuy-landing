@@ -120,7 +120,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'negocios, startups, emprendedores, inversores'
     ),
-    
+
     'GGJUY' => array(
         'id'  =>  'globalgamejam',
         'titulo' => 'Global Game Jam',
@@ -277,6 +277,18 @@ $mensuales = array(
         'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group',
         'descripcion' => '',
         'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
+    ),
+    'interactionDesign' => array(
+        'id'  =>  'interactionDesign',
+        'titulo' => 'Interaction Design UY',
+        'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
+        'fecha' => 'ver web',
+        'horario' => '19:30',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/Interaction-design-Uruguay',
+        'descripcion' => '',
+        'tags'=>'interaction Design,UX,content strategy,usability',
+        'links_otros'=>array(),
     ),
     'scalaMeetup' => array(
         'id'  =>  'scalameetup',
