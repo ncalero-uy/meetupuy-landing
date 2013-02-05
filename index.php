@@ -217,7 +217,3 @@ function print_bloque($evento) {
 
     </body>
 </html>
-<pre>
-<?php
-print_r($_SERVER);
-?>
