@@ -148,7 +148,7 @@ $anuales = array(
         'links_otros'=>array(
             ),
     ),
-    'RubybConf' => array(
+    'rubyconf' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
@@ -196,7 +196,7 @@ $anuales = array(
                 ),
             ),
     ),
-    'PlayaValley' => array(
+    'playavalley' => array(
         'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
         'lugar' => 'Centro Cultural La Paloma, La Paloma, Rocha',
@@ -218,7 +218,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'genexus'
     ),
-    'TechMeetup' => array(
+    'techmeetup' => array(
         'id'  =>  'techmeetupuy',
         'titulo' => 'tech.meetupUY',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
@@ -232,7 +232,7 @@ $anuales = array(
 );
 
 $mensuales = array(
-    'MvdJsMeetup' => array(
+    'mvdjsmeetup' => array(
         'id'  =>  'mvdjsmeetup',
         'titulo' => 'MVDJS Meetup',
         'subtitulo' => 'Meetup de Javascript en Montevideo',
@@ -244,7 +244,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'javascript, nodeJS, html5, frontend, css'
     ),
-    'OpenCoffee' => array(
+    'opencoffee' => array(
         'id'  =>  'opencoffee',
         'titulo' => 'Open Coffee',
         'lugar' => 'Amaretto Bakery Café',
@@ -255,7 +255,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags' => 'proyectos, negocios, inversion, emprendedores'
     ),
-    'rubyMeetup' => array(
+    'ruby' => array(
         'id'  =>  'rubymeetup',
         'titulo' => 'Ruby Meetup',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
@@ -266,7 +266,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'ruby,rails,sinatra,web'
     ),
-    'mysqlMeetup' => array(
+    'mysql' => array(
         'id'  =>  'mysqlmeetup',
         'titulo' => 'Mysql Meetup',
         'subtitulo' => 'Meetup de Mysql en Montevideo',
@@ -278,7 +278,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
     ),
-    'interactionDesign' => array(
+    'interactiondesign' => array(
         'id'  =>  'interactionDesign',
         'titulo' => 'Interaction Design UY',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
@@ -290,7 +290,7 @@ $mensuales = array(
         'tags'=>'interaction Design,UX,content strategy,usability',
         'links_otros'=>array(),
     ),
-    'scalaMeetup' => array(
+    'scala' => array(
         'id'  =>  'scalameetup',
         'titulo' => 'Scala Meetup',
         'lugar' => 'ver web',
@@ -308,7 +308,7 @@ $mensuales = array(
                 ),
             ),
     ),
-    'techNbeers' => array(
+    'technbeers' => array(
         'id'  =>  'technbeers',
         'titulo' => 'TechNbeers',
         'lugar' => 'Asia de Cuba, Montevideo',
@@ -320,7 +320,7 @@ $mensuales = array(
         'tags'=>'proyectos, tecnologia'
     ),
 
-    'GUGMVD' => array(
+    'gugmvd' => array(
         'id'  =>  'gugmvd',
         'titulo' => 'GUG MVD',
         'subtitulo' => 'Comunidad GeneXus en Montevideo',

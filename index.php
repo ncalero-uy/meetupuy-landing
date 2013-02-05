@@ -1,7 +1,9 @@
 <?php
 require_once 'include/eventos.inc.php';
-if( str_replace('/','',$_SERVER['REQUEST_URI']) == 'mysql'){
-    Header('Location:http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group');
+
+$url = str_replace('/','',$_SERVER['REQUEST_URI']);
+if( array_key_exists($url, $mensuales) ){
+    Header('Location:'.$mensuales[$url]['link']);
     exit();
 }
 
