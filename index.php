@@ -1,5 +1,9 @@
 <?php
 require_once 'include/eventos.inc.php';
+if( str_replace('/','',$_SERVER['REQUEST_URI']) == 'mysql'){
+    Header('Location:http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group');
+    exit();
+}
 
 function print_bloque($evento) {
     ?>
@@ -213,3 +217,7 @@ function print_bloque($evento) {
 
     </body>
 </html>
+<pre>
+<?php
+print_r($_SERVER);
+?>
