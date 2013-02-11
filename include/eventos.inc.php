@@ -133,7 +133,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'gaming'
     ),
-     */
+     
     'PerconMysqlUniv' => array(
         'id'  =>  'PerconMysqlUniv',
         'titulo' => 'Percona MySQL University',
@@ -148,6 +148,7 @@ $anuales = array(
         'links_otros'=>array(
             ),
     ),
+    */
     'rubyconf' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay',
