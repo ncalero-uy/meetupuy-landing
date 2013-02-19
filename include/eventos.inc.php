@@ -161,11 +161,13 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'ruby, desarrollo',
         'links_otros'=>array(
+        		/*
                 array(
                     'txt' => 'RFP',
                     'uri' => 'https://docs.google.com/spreadsheet/viewform?formkey=dFExNnBYcndLSFBsUzh5ZVIzUHZOd3c6MQ&ifq',
                     'alt' => 'Request for proposal'
                 ),
+                */
                 array(
                     'txt' => 'blog',
                     'uri' => 'http://rubyconfuruguay.org/news.html',
