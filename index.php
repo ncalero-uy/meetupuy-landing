@@ -139,7 +139,20 @@ function print_bloque($evento) {
                     <?php
                 endforeach;
                 ?>
-
+				<div class="row">
+					<div class="span12" id="mc_embed_signup">
+						<div class="callout well">
+							<h2>Suscríbete a nuestra lista de correo:</h2>
+							<p>Recibe periódicamente noticias sobre todos los eventos de tecnología de Uruguay.</p>
+							<p>
+								<form action="http://meetup.us6.list-manage.com/subscribe/post?u=3d41dcd85fce0148d40035e00&amp;id=73fa5346fb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+									<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="dirección de correo" required>
+									<input type="submit" value="Adentro!" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">
+								</form>
+							</p>
+						</div>
+					</div>
+				</div>
                 <div class="row">
                     <div class="span12">
                         <h2 class="txt-middle">Eventos mensuales</h2>
