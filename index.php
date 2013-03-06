@@ -7,6 +7,11 @@ if( array_key_exists($url, $mensuales) ){
     exit();
 }
 
+if( array_key_exists($url, $anuales) ){
+    Header('Location:'.$anuales[$url]['link']);
+    exit();
+}
+
 function print_bloque($evento) {
     ?>
     <div class="evento span5 well2" id="<?= $evento['id']; ?>">

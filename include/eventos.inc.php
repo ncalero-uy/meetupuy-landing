@@ -133,7 +133,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'gaming'
     ),
-     
+
     'PerconMysqlUniv' => array(
         'id'  =>  'PerconMysqlUniv',
         'titulo' => 'Percona MySQL University',
@@ -199,11 +199,35 @@ $anuales = array(
                 ),
             ),
     ),
+    'tecnologica' => array(
+        'id'  =>  'tecnologica',
+        'titulo' => 'Tecnológica 2013',
+        'lugar' => 'Club de Expositor del Parque de Exposiciones de LATU',
+        'fecha' => '8 y 9/5/2013',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.tecnologica.com.uy/',
+        'tw_hastag' => '#tecnologica2013',
+        'descripcion' => 'Una feria-congreso para profesionales. Una propuesta diferente, integrando todos los actores vinculados con Tecnologías TIC.',
+        'tags'=>'TIC, IT, tecnología',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'Linkedin',
+                    'uri' => 'http://http://www.linkedin.com/groups/Tecnol%C3%B3gicaUY-4882887',
+                    'alt' => 'Grupo Linkedin'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'http://www.facebook.com/Tecnologica.UY',
+                    'alt' => 'Pagina de Facebook'
+                ),
+            ),
+    ),
     'playavalley' => array(
         'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
         'lugar' => 'Centro Cultural La Paloma, La Paloma, Rocha',
-        'fecha' => '5/2013',
+        'fecha' => '',
         'horario' => '',
         'costo' => '',
         'link' => 'http://playavalley.com/',
@@ -230,7 +254,7 @@ $anuales = array(
         'costo' => '',
         'link' => 'http://tech.meetup.uy',
         'descripcion' => '',
-        'tags'=>'desarrollo, tecnologia, IT'
+        'tags'=>'desarrollo, tecnología, IT'
     ),
 );
 
