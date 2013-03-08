@@ -335,6 +335,18 @@ $mensuales = array(
                 ),
             ),
     ),
+    'automationuy' => array(
+        'id'  =>  'automationuy',
+        'titulo' => 'AutomationUY',
+        'lugar' => 'ver web',
+        'fecha' => 'ver web',
+        'horario' => '19:00',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/AutomationUY/',
+        'descripcion' => '',
+        'tags'=>'automation, testing, functional programming',
+        'links_otros'=>array(),
+    ),
     'technbeers' => array(
         'id'  =>  'technbeers',
         'titulo' => 'TechNbeers',
