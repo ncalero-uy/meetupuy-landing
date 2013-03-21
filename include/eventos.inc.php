@@ -223,6 +223,20 @@ $anuales = array(
                 ),
             ),
     ),
+    'semanacyt' => array(
+        'id'  =>  'semanacyt',
+        'titulo' => '8ª Semana de la Ciencia y la Tecnología',
+        'lugar' => 'ver web',
+        'fecha' => '20 al 26/5/2013',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://www.semanacyt.org.uy',
+        'tw_hastag' => '',
+        'descripcion' => '',
+        'tags'=>'TIC, IT, tecnología, ciencia',
+        'links_otros'=>array(
+            ),
+    ),
     'playavalley' => array(
         'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
