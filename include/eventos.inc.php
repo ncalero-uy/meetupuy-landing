@@ -180,11 +180,11 @@ $anuales = array(
     'CibSE' => array(
         'id'  =>  'cibse',
         'titulo' => 'CibSE',
-        'lugar' => '<a href="http://cibse2013.ort.edu.uy/es/Presentacion.php" target="_blank">Campus de la Universidad ORT Uruguay</a>',
+        'lugar' => '<a href="http://cibse2013.ort.edu.uy/" target="_blank">Campus de la Universidad ORT Uruguay</a>',
         'fecha' => '8 al 10/4/2013',
         'horario' => '',
         'costo' => 'gratis',
-        'link' => 'http://cibse2013.ort.edu.uy/SE2013/es/Inicio.htm',
+        'link' => 'http://cibse2013.ort.edu.uy/',
         'tw_hastag' => '#cibse',
         'descripcion' => 'XVI Congreso Iberoamericano en Ingeniería de Software',
         'tags'=>'desarrollo, ingenieria',
