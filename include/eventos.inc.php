@@ -148,7 +148,7 @@ $anuales = array(
         'links_otros'=>array(
             ),
     ),
-    */
+
     'rubyconf' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay',
@@ -175,6 +175,7 @@ $anuales = array(
                 ),
             ),
     ),
+    */
     'CibSE' => array(
         'id'  =>  'cibse',
         'titulo' => 'CibSE',
