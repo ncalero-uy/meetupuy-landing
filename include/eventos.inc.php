@@ -366,13 +366,20 @@ $mensuales = array(
     'technbeers' => array(
         'id'  =>  'technbeers',
         'titulo' => 'TechNbeers',
-        'lugar' => 'Asia de Cuba, Montevideo',
-        'fecha' => '4o jueves de mes',
+        'lugar' => 'Mess Resto Pub (Gabriel Pereira 3064)',
+        'fecha' => '3er martes de mes',
         'horario' => '',
         'costo' => '',
         'link' => 'http://montevideovalley.com/',
         'descripcion' => '',
-        'tags'=>'proyectos, tecnologia'
+        'tags'=>'proyectos, tecnologia, startups, demo',
+        'links_otros'=>array(
+                array(
+                    'txt' => '#TechNbeers',
+                    'uri' => 'https://twitter.com/search/realtime?q=technbeers&src=typd',
+                    'alt' => 'twitter'
+                ),
+            ),
     ),
 
     'gugmvd' => array(
