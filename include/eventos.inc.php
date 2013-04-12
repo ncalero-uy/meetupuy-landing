@@ -309,6 +309,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'ruby,rails,sinatra,web'
     ),
+    /*
     'mysql' => array(
         'id'  =>  'mysqlmeetup',
         'titulo' => 'Mysql Meetup',
@@ -321,6 +322,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'mysql,linux,lamp, nosql,database,linux,cloud'
     ),
+    */
     'interactiondesign' => array(
         'id'  =>  'interactionDesign',
         'titulo' => 'Interaction Design UY',
@@ -348,6 +350,24 @@ $mensuales = array(
                     'txt' => 'blog',
                     'uri' => 'http://scala.meetup.uy',
                     'alt' => 'blog'
+                ),
+            ),
+    ),
+    'devopsmvd' => array(
+        'id'  =>  'devopsmvd',
+        'titulo' => 'DevOps MVD',
+        'lugar' => 'Case UY, San José 1337 of 11, Montevideo',
+        'fecha' => '3er miercoles de mes',
+        'horario' => '19:30',
+        'costo' => 'gratis',
+        'link' => 'http://devops.meetup.uy',
+        'descripcion' => '',
+        'tags'=>'devops, sysadmin, it',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'irc://irc.freenode.net/devopsuy',
+                    'uri' => '',
+                    'alt' => ''
                 ),
             ),
     ),
