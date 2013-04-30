@@ -176,7 +176,7 @@ $anuales = array(
             ),
     ),
 
-    */
+
     'CibSE' => array(
         'id'  =>  'cibse',
         'titulo' => 'CibSE',
@@ -201,6 +201,28 @@ $anuales = array(
                 ),
             ),
     ),
+
+    */
+   'agileuy' => array(
+        'id'  =>  'agileuy',
+        'titulo' => 'Open Space',
+        'lugar' => 'Parque de Exposiciones del LATU',
+        'fecha' => '4/5/2013',
+        'horario' => '10hs a 16hs',
+        'costo' => 'gratis',
+        'link' => 'http://agile.uy/',
+        'tw_hastag' => '#openuy',
+        'descripcion' => '',
+        'tags'=>'agile, scrum, openspace',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'Eventioz',
+                    'uri' => 'https://eventioz.com.ar/events/agile-is-in-the-air-open-space',
+                    'alt' => 'Eventioz'
+                ),
+            ),
+    ),
+
     'tecnologica' => array(
         'id'  =>  'tecnologica',
         'titulo' => 'Tecnológica 2013',
