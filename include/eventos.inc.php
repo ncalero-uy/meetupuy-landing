@@ -216,10 +216,10 @@ $anuales = array(
         'tags'=>'agile, scrum, openspace',
         'links_otros'=>array(
                 array(
-                    'txt' => 'Eventioz',
-                    'uri' => 'https://eventioz.com.ar/events/agile-is-in-the-air-open-space',
-                    'alt' => 'Eventioz'
-                ),
+                    'txt' => '¿Qué es un openspace?',
+                    'uri' => 'http://www.proyectosagiles.org/que-es-open-space',
+                    'alt' => '¿Qué es un openspace?'
+                )
             ),
     ),
 
