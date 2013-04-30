@@ -216,6 +216,11 @@ $anuales = array(
         'tags'=>'agile, scrum, openspace',
         'links_otros'=>array(
                 array(
+                    'txt' => '@AgileUY',
+                    'uri' => 'http://twitter.com/agileuy',
+                    'alt' => 'twitter'
+                ),
+                array(
                     'txt' => '¿Qué es un openspace?',
                     'uri' => 'http://www.proyectosagiles.org/que-es-open-space',
                     'alt' => '¿Qué es un openspace?'
