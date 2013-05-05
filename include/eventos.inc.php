@@ -202,7 +202,7 @@ $anuales = array(
             ),
     ),
 
-    */
+
    'agileuy' => array(
         'id'  =>  'agileuy',
         'titulo' => 'Open Space',
@@ -227,7 +227,7 @@ $anuales = array(
                 )
             ),
     ),
-
+    */
     'tecnologica' => array(
         'id'  =>  'tecnologica',
         'titulo' => 'Tecnológica 2013',
@@ -264,6 +264,30 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'TIC, IT, tecnología, ciencia',
         'links_otros'=>array(
+            ),
+    ),
+    'abrelatam' => array(
+        'id'  =>  'abrelatam',
+        'titulo' => 'ABRE LATAM',
+        'lugar' => 'Centro Cultural España, Montevideo',
+        'fecha' => '24 y 25/6/2013',
+        'horario' => '9 a 23hs',
+        'costo' => 'gratis',
+        'link' => 'http://www.abrelatam.org/',
+        'tw_hastag' => '',
+        'descripcion' => '',
+        'tags'=>'datos abiertos, gobierno, desconferencia',
+        'links_otros'=>array(
+            array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/ABRELATAM',
+                    'alt' => 'Pagina de Facebook'
+                ),
+            array(
+                    'txt' => '@ABRELATAM',
+                    'uri' => 'https://twitter.com/ABRELATAM',
+                    'alt' => 'Twitter'
+                ),
             ),
     ),
     'playavalley' => array(
