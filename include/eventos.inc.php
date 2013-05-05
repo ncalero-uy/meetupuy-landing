@@ -279,16 +279,22 @@ $anuales = array(
         'tags'=>'datos abiertos, gobierno, desconferencia',
         'links_otros'=>array(
             array(
+                    'txt' => '@ABRELATAM',
+                    'uri' => 'https://twitter.com/ABRELATAM',
+                    'alt' => 'Twitter'
+                ),
+            array(
                     'txt' => 'Facebook',
                     'uri' => 'https://www.facebook.com/ABRELATAM',
                     'alt' => 'Pagina de Facebook'
                 ),
             array(
-                    'txt' => '@ABRELATAM',
-                    'uri' => 'https://twitter.com/ABRELATAM',
-                    'alt' => 'Twitter'
+                    'txt' => 'Linkedin',
+                    'uri' => 'http://www.linkedin.com/groups/ABRE-LATAM-4946099',
+                    'alt' => 'Linkedin'
                 ),
             ),
+
     ),
     'playavalley' => array(
         'id'  =>  'playavalley',
