@@ -231,6 +231,7 @@ $anuales = array(
     'tecnologica' => array(
         'id'  =>  'tecnologica',
         'titulo' => 'Tecnológica 2013',
+        'subtitulo' => 'feria – congreso, una propuesta innovadora y de vanguardia.',
         'lugar' => 'Club de Expositor del Parque de Exposiciones de LATU',
         'fecha' => '8 y 9/5/2013',
         'horario' => '',
@@ -255,6 +256,7 @@ $anuales = array(
     'semanacyt' => array(
         'id'  =>  'semanacyt',
         'titulo' => '8ª Semana de la Ciencia y la Tecnología',
+        'subtitulo' => 'Semanacyt - Ciencia y Tecnología para todos',
         'lugar' => 'ver web',
         'fecha' => '20 al 26/5/2013',
         'horario' => '',
@@ -266,9 +268,25 @@ $anuales = array(
         'links_otros'=>array(
             ),
     ),
+    'segurinfo2013' => array(
+        'id'  =>  'segurinfo2013',
+        'titulo' => 'Segurinfo 2013',
+        'subtitulo' => 'XXVIII Congreso y Feria Iberoamericana de Seguridad de la Información',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '23/5/2013',
+        'horario' => '8 a 18:30hs',
+        'costo' => 'USD490',
+        'link' => 'http://www.segurinfo.org/detalle.php?a=segurinfo-uruguay-2013&t=50&d=214',
+        'tw_hastag' => '',
+        'descripcion' => '',
+        'tags'=>'seguridad, IT',
+        'links_otros'=>array(
+            ),
+    ),
     'abrelatam' => array(
         'id'  =>  'abrelatam',
         'titulo' => 'ABRE LATAM',
+        'subtitulo' => 'Un encuentro abierto por una región abierta.',
         'lugar' => 'Centro Cultural España, Montevideo',
         'fecha' => '24 y 25/6/2013',
         'horario' => '9 a 23hs',
@@ -296,6 +314,38 @@ $anuales = array(
             ),
 
     ),
+/*
+    'datosabiertos' => array(
+        'id'  =>  'datosabiertos',
+        'titulo' => 'Conferencia Regional de Datos Abiertos',
+        'lugar' => 'Radisson Victoria Plaza, Montevideo',
+        'fecha' => '26 y 27/6/2013',
+        'horario' => '9 a 23hs',
+        'costo' => 'gratis',
+        'link' => 'http://www.abrelatam.org/',
+        'tw_hastag' => '',
+        'descripcion' => '',
+        'tags'=>'datos abiertos, gobierno, desconferencia',
+        'links_otros'=>array(
+            array(
+                    'txt' => '@ABRELATAM',
+                    'uri' => 'https://twitter.com/ABRELATAM',
+                    'alt' => 'Twitter'
+                ),
+            array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/ABRELATAM',
+                    'alt' => 'Pagina de Facebook'
+                ),
+            array(
+                    'txt' => 'Linkedin',
+                    'uri' => 'http://www.linkedin.com/groups/ABRE-LATAM-4946099',
+                    'alt' => 'Linkedin'
+                ),
+            ),
+
+    ),
+*/
     'playavalley' => array(
         'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
