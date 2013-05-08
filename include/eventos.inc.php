@@ -268,6 +268,21 @@ $anuales = array(
         'links_otros'=>array(
             ),
     ),
+    'eraodshow' => array(
+        'id'  =>  'eraodshow',
+        'titulo' => 'eRoadshow MVD 2013',
+        'subtitulo' => 'evento B2B del e-commerce en Uruguay',
+        'lugar' => 'Auditorio LATU, Montevideo',
+        'fecha' => '22/5/2013',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.cuti.org.uy/eroadshow',
+        'tw_hastag' => '',
+        'descripcion' => '',
+        'tags'=>'e-commerce, marketing, seo',
+        'links_otros'=>array(
+            ),
+    ),
     'segurinfo2013' => array(
         'id'  =>  'segurinfo2013',
         'titulo' => 'Segurinfo 2013',
