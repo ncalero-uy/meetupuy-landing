@@ -227,7 +227,7 @@ $anuales = array(
                 )
             ),
     ),
-    */
+
     'tecnologica' => array(
         'id'  =>  'tecnologica',
         'titulo' => 'Tecnológica 2013',
@@ -253,6 +253,7 @@ $anuales = array(
                 ),
             ),
     ),
+    */
     'semanacyt' => array(
         'id'  =>  'semanacyt',
         'titulo' => '8ª Semana de la Ciencia y la Tecnología',
