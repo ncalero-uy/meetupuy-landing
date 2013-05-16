@@ -527,7 +527,7 @@ $mensuales = array(
 
     'gugmvd' => array(
         'id'  =>  'gugmvd',
-        'titulo' => 'GUG MVD',
+        'titulo' => 'Grupo de Usuarios GeneXus MVD',
         'subtitulo' => 'Comunidad GeneXus en Montevideo',
         'lugar' => 'CDC - Latu, Av. Italia 6201',
         'fecha' => '',
@@ -536,5 +536,17 @@ $mensuales = array(
         'link' => 'http://gugmontevideo.wordpress.com/',
         'descripcion' => '',
         'tags'=>'Genexus'
+    ),
+    'usdug' => array(
+        'id'  =>  'usdug',
+        'titulo' => 'Salesforce Developer User Group Uruguay',
+        'subtitulo' => '',
+        'lugar' => 'ver web',
+        'fecha' => '',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/Uruguay-Salesforce-Developer-User-Group/',
+        'descripcion' => '',
+        'tags'=>'salesforce, dev'
     ),
 );
