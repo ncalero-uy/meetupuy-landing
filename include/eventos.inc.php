@@ -507,6 +507,18 @@ $mensuales = array(
         'tags'=>'automation, testing, functional programming',
         'links_otros'=>array(),
     ),
+    'phpmvd' => array(
+        'id'  =>  'phpmvd',
+        'titulo' => 'PHP Montevideo',
+        'lugar' => 'ver web',
+        'fecha' => '4o Martes de mes',
+        'horario' => '20:00',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/PHPmvd/',
+        'descripcion' => '',
+        'tags'=>'php, web development, php frameworks',
+        'links_otros'=>array(),
+    ),
     'technbeers' => array(
         'id'  =>  'technbeers',
         'titulo' => 'TechNbeers',
