@@ -253,7 +253,7 @@ $anuales = array(
                 ),
             ),
     ),
-    */
+
     'semanacyt' => array(
         'id'  =>  'semanacyt',
         'titulo' => '8ª Semana de la Ciencia y la Tecnología',
@@ -299,6 +299,7 @@ $anuales = array(
         'links_otros'=>array(
             ),
     ),
+    */
     'abrelatam' => array(
         'id'  =>  'abrelatam',
         'titulo' => 'ABRE LATAM',
