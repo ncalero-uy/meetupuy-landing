@@ -160,7 +160,7 @@ function print_bloque($evento) {
 				</div>
                 <div class="row">
                     <div class="span12">
-                        <h2 class="txt-middle">Eventos mensuales</h2>
+                        <h2 class="txt-middle"><a id="mensuales"></a>Eventos mensuales</h2>
                         <hr class="dashed">
                     </div>
                 </div>
