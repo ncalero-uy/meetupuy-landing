@@ -415,7 +415,7 @@ $mensuales = array(
         'id'  =>  'opencoffee',
         'titulo' => 'Open Coffee',
         'lugar' => 'Amaretto Bakery Café',
-        'fecha' => '2o Martes de mes',
+        'fecha' => '2o martes de mes',
         'horario' => '9:00',
         'costo' => '',
         'link' => 'http://opencoffeemvd.org/',
@@ -432,6 +432,25 @@ $mensuales = array(
         'link' => 'http://www.meetup.com/rubymvd/',
         'descripcion' => '',
         'tags'=>'ruby,rails,sinatra,web'
+    ),
+    'agileuy' => array(
+        'id'  =>  'agileuy',
+        'titulo' => 'Agile UY',
+        'subtitulo' => 'Comunidad agile de Uruguay',
+        'lugar' => 'ver web',
+        'fecha' => '2o miércoles de mes',
+        'horario' => '20:00',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/AgileUY/',
+        'descripcion' => '',
+        'tags'=>'agile, scrum, XP, kanban, metodologias',
+        'links_otros'=>array(
+            array(
+                    'txt' => '@AgileUY',
+                    'uri' => 'https://twitter.com/AgileUy',
+                    'alt' => 'twitter'
+                ),
+            ),
     ),
     /*
     'mysql' => array(
@@ -459,9 +478,28 @@ $mensuales = array(
         'tags'=>'interaction Design,UX,content strategy,usability',
         'links_otros'=>array(),
     ),
+    'devopsmvd' => array(
+        'id'  =>  'devopsmvd',
+        'titulo' => 'DevOps MVD',
+        'lugar' => 'Case UY, San José 1337 of 11, Montevideo',
+        'fecha' => '3er miércoles de mes',
+        'horario' => '19:30',
+        'costo' => 'gratis',
+        'link' => 'http://devops.meetup.uy',
+        'descripcion' => '',
+        'tags'=>'devops, sysadmin, it',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'irc://irc.freenode.net/devopsuy',
+                    'uri' => '',
+                    'alt' => ''
+                ),
+            ),
+    ),
     'scala' => array(
         'id'  =>  'scalameetup',
         'titulo' => 'Scala Meetup',
+        'subtitulo' => 'Grupo de Usuarios de Scala.',
         'lugar' => 'ver web',
         'fecha' => '3er jueves de mes',
         'horario' => '20:00',
@@ -477,24 +515,20 @@ $mensuales = array(
                 ),
             ),
     ),
-    'devopsmvd' => array(
-        'id'  =>  'devopsmvd',
-        'titulo' => 'DevOps MVD',
-        'lugar' => 'Case UY, San José 1337 of 11, Montevideo',
-        'fecha' => '3er miercoles de mes',
-        'horario' => '19:30',
+    'phpmvd' => array(
+        'id'  =>  'phpmvd',
+        'titulo' => 'PHP Montevideo',
+        'subtitulo' => 'Comunidad de desarrolladores PHP',
+        'lugar' => 'ver web',
+        'fecha' => '4o martes de mes',
+        'horario' => '20:00',
         'costo' => 'gratis',
-        'link' => 'http://devops.meetup.uy',
+        'link' => 'http://www.meetup.com/PHPmvd/',
         'descripcion' => '',
-        'tags'=>'devops, sysadmin, it',
-        'links_otros'=>array(
-                array(
-                    'txt' => 'irc://irc.freenode.net/devopsuy',
-                    'uri' => '',
-                    'alt' => ''
-                ),
-            ),
+        'tags'=>'php, web development, php frameworks',
+        'links_otros'=>array(),
     ),
+
     'automationuy' => array(
         'id'  =>  'automationuy',
         'titulo' => 'AutomationUY',
@@ -505,18 +539,6 @@ $mensuales = array(
         'link' => 'http://www.meetup.com/AutomationUY/',
         'descripcion' => '',
         'tags'=>'automation, testing, functional programming',
-        'links_otros'=>array(),
-    ),
-    'phpmvd' => array(
-        'id'  =>  'phpmvd',
-        'titulo' => 'PHP Montevideo',
-        'lugar' => 'ver web',
-        'fecha' => '4o Martes de mes',
-        'horario' => '20:00',
-        'costo' => 'gratis',
-        'link' => 'http://www.meetup.com/PHPmvd/',
-        'descripcion' => '',
-        'tags'=>'php, web development, php frameworks',
         'links_otros'=>array(),
     ),
     'technbeers' => array(
