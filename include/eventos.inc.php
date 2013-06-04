@@ -388,7 +388,7 @@ $anuales = array(
     ),
     'jsconfuy' => array(
         'id'  =>  'jsconfuy',
-        'titulo' => 'JSconf Uruguay',
+        'titulo' => 'JSConf Uruguay 2013',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '18 y 19/10/2013',
         'horario' => '',
@@ -411,9 +411,9 @@ $anuales = array(
     ),
     'PyconUY' => array(
         'id'  =>  'pycon',
-        'titulo' => 'Pycon 2013',
+        'titulo' => 'PyCon Uruguay 2013',
         'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
-        'fecha' => '1/11/2012 a 2/11/2012',
+        'fecha' => '1 y 2/11/2013',
         'horario' => '',
         'costo' => '',
         'link' => 'http://uy.pycon.org',
@@ -434,7 +434,7 @@ $anuales = array(
     ),
     'techmeetup' => array(
         'id'  =>  'techmeetupuy',
-        'titulo' => 'tech.meetupUY',
+        'titulo' => 'tech.meetupUY 2013',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '22 y 23/11/2013',
         'horario' => '',
