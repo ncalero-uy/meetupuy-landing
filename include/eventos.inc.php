@@ -362,7 +362,7 @@ $anuales = array(
             ),
 
     ),
-*/
+
     'playavalley' => array(
         'id'  =>  'playavalley',
         'titulo' => '#PlayaValley',
@@ -374,6 +374,7 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'media, web'
     ),
+    */
     'encGenexus' => array(
         'id'  =>  'encgenexus',
         'titulo' => 'XXIII Encuentro GeneXus',
@@ -385,6 +386,52 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'genexus'
     ),
+    'jsconfuy' => array(
+        'id'  =>  'jsconfuy',
+        'titulo' => 'JSconf Uruguay',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '18 y 19/10/2013',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://jsconf.uy',
+        'descripcion' => '',
+        'tags'=>'javascript, frontend, desarrollo',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@JSConfUY',
+                    'uri' => 'https://twitter.com/JSConfUY',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/JsConfUY',
+                    'alt' => 'Facebook'
+                ),
+            ),
+    ),
+    'PyconUY' => array(
+        'id'  =>  'pycon',
+        'titulo' => 'Pycon 2013',
+        'lugar' => 'Laboratorio Tecnológico del Uruguay, Av. Italia 6201, Montevideo',
+        'fecha' => '1/11/2012 a 2/11/2012',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://uy.pycon.org',
+        'tags'=>'python, desarrollo',
+        'descripcion' => '',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@PyConUy',
+                    'uri' => 'https://twitter.com/PyConUy',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/PyConUy',
+                    'alt' => 'Facebook'
+                ),
+            ),
+    ),
     'techmeetup' => array(
         'id'  =>  'techmeetupuy',
         'titulo' => 'tech.meetupUY',
@@ -394,7 +441,19 @@ $anuales = array(
         'costo' => '',
         'link' => 'http://tech.meetup.uy',
         'descripcion' => '',
-        'tags'=>'desarrollo, tecnología, IT'
+        'tags'=>'desarrollo, tecnología, IT',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@meetupUY',
+                    'uri' => 'https://twitter.com/meetupUY',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/meetupuy',
+                    'alt' => 'Facebook'
+                ),
+            ),
     ),
 );
 
