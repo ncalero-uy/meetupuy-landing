@@ -28,6 +28,11 @@ $anuales = array(
                    'uri' => 'http://www.linkedin.com/groups/ABRE-LATAM-4946099',
                    'alt' => 'Linkedin'
                ),
+            array(
+                   'txt' => 'Eventbrite',
+                   'uri' => 'http://abrelatam.eventbrite.com/',
+                   'alt' => 'Eventbrite'
+               ),
            ),
    ),
 
