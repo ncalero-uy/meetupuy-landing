@@ -1,5 +1,36 @@
 <?php
 $anuales = array(
+    'abrelatam' => array(
+       'id'  =>  'abrelatam',
+       'titulo' => 'ABRE LATAM',
+       'subtitulo' => 'Un encuentro abierto por una región abierta.',
+       'lugar' => 'Centro Cultural España, Montevideo',
+       'fecha' => '24 y 25/6/2013',
+       'horario' => '9 a 23hs',
+       'costo' => 'gratis',
+       'link' => 'http://www.abrelatam.org/',
+       'tw_hastag' => '',
+       'descripcion' => '',
+       'tags'=>'datos abiertos, gobierno, desconferencia',
+       'links_otros'=>array(
+           array(
+                   'txt' => '@ABRELATAM',
+                   'uri' => 'https://twitter.com/ABRELATAM',
+                   'alt' => 'Twitter'
+               ),
+           array(
+                   'txt' => 'Facebook',
+                   'uri' => 'https://www.facebook.com/ABRELATAM',
+                   'alt' => 'Pagina de Facebook'
+               ),
+           array(
+                   'txt' => 'Linkedin',
+                   'uri' => 'http://www.linkedin.com/groups/ABRE-LATAM-4946099',
+                   'alt' => 'Linkedin'
+               ),
+           ),
+   ),
+
     'encGenexus' => array(
         'id'  =>  'encgenexus',
         'titulo' => 'XXIII Encuentro GeneXus',
@@ -235,7 +266,7 @@ $mensuales = array(
         'id'  =>  'gugmvd',
         'titulo' => 'Grupo de Usuarios GeneXus MVD',
         'subtitulo' => 'Comunidad GeneXus en Montevideo',
-        'lugar' => 'CDC - Latu, Av. Italia 6201',
+        'lugar' => 'CDC Latu, Av. Italia 6201',
         'fecha' => '',
         'horario' => '',
         'costo' => '',
