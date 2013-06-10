@@ -1,25 +1,5 @@
 <?php
 $anuales = array(
-    'ubuconla' => array(
-       'id'  =>  'ubuconla',
-       'titulo' => 'UbuCon Latinoamérica',
-       'subtitulo' => '',
-       'lugar' => 'Facultad de Arquitectura, Montevideo',
-       'fecha' => '7 y 8/6/2013',
-       'horario' => '9 a 17hs',
-       'costo' => 'gratis',
-       'link' => 'http://www.ubuconla.org/',
-       'tw_hastag' => '',
-       'descripcion' => '',
-       'tags'=>'Ubuntu',
-       'links_otros'=>array(
-           array(
-                   'txt' => '@UbuConLa',
-                   'uri' => 'https://twitter.com/UbuConLa',
-                   'alt' => 'Twitter'
-               ),
-           ),
-   ),
     'abrelatam' => array(
        'id'  =>  'abrelatam',
        'titulo' => 'ABRE LATAM',
