@@ -35,6 +35,26 @@ $anuales = array(
                ),
            ),
    ),
+    'confdatosabiertos' => array(
+       'id'  =>  'confdatosabiertos',
+       'titulo' => 'Conferencia Regional de Datos Abiertos para América Latina y el Caribe',
+       'subtitulo' => '',
+       'lugar' => 'Hotel Radisson Victoria Plaza, Montevideo',
+       'fecha' => '26 y 27/6/2013',
+       'horario' => '9 a 18hs',
+       'costo' => 'gratis',
+       'link' => 'http://confdatosabiertos.uy/',
+       'tw_hastag' => '',
+       'descripcion' => '',
+       'tags'=>'datos abiertos',
+       'links_otros'=>array(
+           array(
+                   'txt' => '@confdatos',
+                   'uri' => 'https://twitter.com/confdatos',
+                   'alt' => 'Twitter'
+               ),
+           ),
+   ),
 
     'encGenexus' => array(
         'id'  =>  'encgenexus',
