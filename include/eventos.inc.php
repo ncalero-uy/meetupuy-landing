@@ -255,6 +255,19 @@ $mensuales = array(
         'tags'=>'php, web development, php frameworks',
         'links_otros'=>array(),
     ),
+    'mysql' => array(
+        'id'  =>  'mysql',
+        'titulo' => 'The MySQL Meeting Group',
+        'subtitulo' => 'Comunidad de usuarios de MySQL',
+        'lugar' => 'ver web',
+        'fecha' => '',
+        'horario' => '19:15',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/The-Montevideo-MySQL-Meetup-Group/',
+        'descripcion' => '',
+        'tags'=>'bases de datos, mysql',
+        'links_otros'=>array(),
+    ),
 
     'automationuy' => array(
         'id'  =>  'automationuy',
