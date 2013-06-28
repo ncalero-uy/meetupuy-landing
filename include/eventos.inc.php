@@ -1,59 +1,28 @@
 <?php
 $anuales = array(
-    'abrelatam' => array(
-       'id'  =>  'abrelatam',
-       'titulo' => 'ABRE LATAM',
-       'subtitulo' => 'Un encuentro abierto por una región abierta.',
-       'lugar' => 'Centro Cultural España, Montevideo',
-       'fecha' => '24 y 25/6/2013',
-       'horario' => '9 a 23hs',
+
+
+    'mpupdate' => array(
+       'id'  =>  'mpupdate',
+       'titulo' => 'MP UPDATE - Tecnología + Salud',
+       'subtitulo' => 'Innovaciones que te hacen bien.',
+       'lugar' => 'Sala Hugo Balzo, Auditorio del Sodre, Montevideo',
+       'fecha' => '24/7/2013',
+       'horario' => '8.30 hs',
        'costo' => 'gratis',
-       'link' => 'http://www.abrelatam.org/',
+       'link' => 'http://mpupdate.com.uy/',
        'tw_hastag' => '',
        'descripcion' => '',
-       'tags'=>'datos abiertos, gobierno, desconferencia',
+       'tags'=>'tecnologia, salud',
+       /*
        'links_otros'=>array(
            array(
-                   'txt' => '@ABRELATAM',
-                   'uri' => 'https://twitter.com/ABRELATAM',
-                   'alt' => 'Twitter'
-               ),
-           array(
-                   'txt' => 'Facebook',
-                   'uri' => 'https://www.facebook.com/ABRELATAM',
-                   'alt' => 'Pagina de Facebook'
-               ),
-           array(
-                   'txt' => 'Linkedin',
-                   'uri' => 'http://www.linkedin.com/groups/ABRE-LATAM-4946099',
-                   'alt' => 'Linkedin'
-               ),
-            array(
-                   'txt' => 'Eventbrite',
-                   'uri' => 'http://abrelatam.eventbrite.com/',
-                   'alt' => 'Eventbrite'
+                   'txt' => '',
+                   'uri' => '',
+                   'alt' => ''
                ),
            ),
-   ),
-    'confdatosabiertos' => array(
-       'id'  =>  'confdatosabiertos',
-       'titulo' => 'Conferencia Regional de Datos Abiertos para América Latina y el Caribe',
-       'subtitulo' => '',
-       'lugar' => 'Hotel Radisson Victoria Plaza, Montevideo',
-       'fecha' => '26 y 27/6/2013',
-       'horario' => '9 a 18hs',
-       'costo' => 'gratis',
-       'link' => 'http://confdatosabiertos.uy/',
-       'tw_hastag' => '',
-       'descripcion' => '',
-       'tags'=>'datos abiertos',
-       'links_otros'=>array(
-           array(
-                   'txt' => '@confdatos',
-                   'uri' => 'https://twitter.com/confdatos',
-                   'alt' => 'Twitter'
-               ),
-           ),
+        */
    ),
 
     'encGenexus' => array(
