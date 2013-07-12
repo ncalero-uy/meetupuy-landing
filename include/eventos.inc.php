@@ -223,6 +223,7 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'php, web development, php frameworks',
         'links_otros'=>array(),
+        'meetup_com_url' => 'phpmvd'
     ),
     'mysql' => array(
         'id'  =>  'mysql',
