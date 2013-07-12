@@ -49,6 +49,9 @@ try {
 	error_log('Cant setup cache: '.$e->getMessage());
 }
 
+
+
+
 // -------
 echo '<pre>';
 foreach($group_ids as $group_urlname){
@@ -69,7 +72,7 @@ foreach($group_ids as $group_urlname){
 			}
 			echo '</li>';
 			//solo me intesa el próximo
-			break;
+			//break;
 		}
 		echo '</ul>';
 	}
