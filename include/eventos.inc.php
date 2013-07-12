@@ -24,7 +24,26 @@ $anuales = array(
            ),
         */
    ),
-
+    'smduy' => array(
+       'id'  =>  'smduy',
+       'titulo' => 'Social Media Day UY',
+       'subtitulo' => '',
+       'lugar' => 'Movie, Montevideo Shopping',
+       'fecha' => '24/7/2013',
+       'horario' => '8.30hs a 18hs',
+       'costo' => 'gratis',
+       'link' => 'http://www.socialmediaday.com.uy/',
+       'tw_hastag' => '',
+       'descripcion' => '',
+       'tags'=>'social media',
+       'links_otros'=>array(
+           array(
+                   'txt' => 'Registro',
+                   'uri' => 'http://smduy.eventbrite.es/',
+                   'alt' => 'Registro'
+               ),
+           ),
+   ),
     'encGenexus' => array(
         'id'  =>  'encgenexus',
         'titulo' => 'XXIII Encuentro GeneXus',
