@@ -20,7 +20,9 @@ function print_bloque($evento) {
         echo $evento['subtitulo'];
     } ?></h4>
         <ul class="unstyled">
+            <?php if (!empty($evento['lugar']) && $evento['lugar'] != ''): ?>
             <li><i class="icon-map-marker"></i> <?= $evento['lugar']; ?></li>
+            <?php endif; ?>
             <?php if (!empty($evento['fecha']) && $evento['fecha'] != ''): ?>
                 <li><i class="icon-calendar"></i> <?= $evento['fecha']; ?></li>
             <?php endif; ?>
