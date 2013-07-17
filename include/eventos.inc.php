@@ -127,6 +127,18 @@ $anuales = array(
 );
 
 $mensuales = array(
+    'dotnetuy' => array(
+        'id'  =>  'dotnetuy',
+        'titulo' => '.Net UY',
+        'subtitulo' => '',
+        'lugar' => 'ver web.',
+        'fecha' => '1er martes de mes',
+        'horario' => '19:00',
+        'costo' => '',
+        'link' => 'http://www.meetup.com/NET-UY/',
+        'descripcion' => '',
+        'tags'=>'.net, C#, SQL, visualStudio, Microsoft'
+    ),
     'mvdjsmeetup' => array(
         'id'  =>  'mvdjsmeetup',
         'titulo' => 'MVDJS Meetup',
