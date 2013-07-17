@@ -72,24 +72,24 @@ function print_bloque($evento) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Indice de eventos relacionados con tecnología en Uruguay">
         <meta name="author" content="Diego Sapriza">
-        <link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.css" rel="stylesheet">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="./css/font-awesome.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <!--[if lt IE 8]>
           <link href="/css/font-awesome-ie7.css" rel="stylesheet">
         <![endif]-->
-        <link href="/css/base.css" rel="stylesheet">
-        <link href="/css/blue.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
+        <link href="./css/blue.css" rel="stylesheet">
         <!--[if lt IE 9]>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link rel="shortcut icon" href="/img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" href="/img/ico/favicon.ico">
-        <link href="/css/landing.css" rel="stylesheet">
+        <link rel="shortcut icon" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="./img/ico/favicon.ico">
+        <link href="./css/landing.css" rel="stylesheet">
     </head>
 
     <body>
@@ -221,10 +221,10 @@ function print_bloque($evento) {
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/js/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/bootstrap-tooltip.js"></script>
-        <script src="/js/jquery.tools.min.js"></script>
+        <script>window.jQuery || document.write('<script src="./js/jquery-1.8.2.min.js"><\/script>')</script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/bootstrap-tooltip.js"></script>
+        <script src="./js/jquery.tools.min.js"></script>
         <script>
             $(document).ready(function(){
                 $("#totop").click(function () {
