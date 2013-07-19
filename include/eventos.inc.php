@@ -78,10 +78,20 @@ $anuales = array(
         'tags'=>'genexus',
         'links_otros'=>array(
                 array(
+                        'txt'=>'@GeneXus',
+                        'uri'=>'https://twitter.com/GeneXus',
+                        'alt'=> '@GeneXus'
+                    ),
+                array(
                         'txt'=>'#GX23',
                         'uri'=>'https://twitter.com/search/realtime?q=%23GX23&src=typd',
                         'alt'=> '#GX23'
-                    )
+                    ),
+                array(
+                        'txt'=>'Facebook',
+                        'uri'=>'https://www.facebook.com/GeneXus.Artech',
+                        'alt'=> 'Facebook'
+                    ),
             )
     ),
     'jsconfuy' => array(
@@ -276,8 +286,8 @@ $mensuales = array(
         'titulo' => 'PHP Montevideo',
         'subtitulo' => 'Comunidad de desarrolladores PHP',
         'lugar' => '',
-        'fecha' => '4o martes de mes',
-        'horario' => '20:00',
+        'fecha' => '4o miercoles de mes',
+        'horario' => '19:30',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/PHPmvd/',
         'descripcion' => '',
