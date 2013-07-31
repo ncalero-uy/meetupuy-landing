@@ -1,49 +1,6 @@
 <?php
 $anuales = array(
 
-
-    'mpupdate' => array(
-       'id'  =>  'mpupdate',
-       'titulo' => 'MP UPDATE - Tecnología + Salud',
-       'subtitulo' => 'Innovaciones que te hacen bien.',
-       'lugar' => 'Sala Hugo Balzo, Auditorio del Sodre, Montevideo',
-       'fecha' => '24/7/2013',
-       'horario' => '8.30 hs',
-       'costo' => 'gratis',
-       'link' => 'http://mpupdate.com.uy/',
-       'tw_hastag' => '',
-       'descripcion' => '',
-       'tags'=>'tecnologia, salud',
-       /*
-       'links_otros'=>array(
-           array(
-                   'txt' => '',
-                   'uri' => '',
-                   'alt' => ''
-               ),
-           ),
-        */
-   ),
-    'smduy' => array(
-       'id'  =>  'smduy',
-       'titulo' => 'Social Media Day UY',
-       'subtitulo' => '',
-       'lugar' => 'Movie, Montevideo Shopping',
-       'fecha' => '24/7/2013',
-       'horario' => '8.30hs a 18hs',
-       'costo' => 'gratis',
-       'link' => 'http://www.socialmediaday.com.uy/',
-       'tw_hastag' => '',
-       'descripcion' => '',
-       'tags'=>'social media',
-       'links_otros'=>array(
-           array(
-                   'txt' => 'Registro',
-                   'uri' => 'http://smduy.eventbrite.es/',
-                   'alt' => 'Registro'
-               ),
-           ),
-   ),
     'avanza' => array(
        'id'  =>  'avanza',
        'titulo' => 'avanza',
