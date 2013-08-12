@@ -1,28 +1,5 @@
 <?php
 $anuales = array(
-
-    'avanza' => array(
-       'id'  =>  'avanza',
-       'titulo' => 'avanza',
-       'subtitulo' => '2a. Conferencia Internacional de Software Libre y Código Abierto',
-       'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-       'fecha' => '5 y 6/8/2013',
-       'horario' => '',
-       'costo' => 'gratis',
-       'link' => 'http://www.antel.com.uy/avanza/cisl2013',
-       'tw_hastag' => '',
-       'descripcion' => '',
-       'tags'=>'software, oss, software Libre',
-       'links_otros'=>array(
-        /*
-           array(
-                   'txt' => 'Registro',
-                   'uri' => 'http://smduy.eventbrite.es/',
-                   'alt' => 'Registro'
-               ),
-               */
-           ),
-   ),
     'encGenexus' => array(
         'id'  =>  'encgenexus',
         'titulo' => 'XXIII Encuentro GeneXus',
