@@ -51,29 +51,6 @@ $anuales = array(
                     ),
             )
     ),
-    'jsconfuy' => array(
-        'id'  =>  'jsconfuy',
-        'titulo' => 'JSConf Uruguay 2014',
-        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '14 y 15/03/2014',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://jsconf.uy',
-        'descripcion' => '',
-        'tags'=>'javascript, frontend, desarrollo',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@JSConfUY',
-                    'uri' => 'https://twitter.com/JSConfUY',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'Facebook',
-                    'uri' => 'https://www.facebook.com/JSConfUY',
-                    'alt' => 'Facebook'
-                ),
-            ),
-    ),
     'PyconUY' => array(
         'id'  =>  'pycon',
         'titulo' => 'PyCon Uruguay 2013',
@@ -116,6 +93,29 @@ $anuales = array(
                 array(
                     'txt' => 'Facebook',
                     'uri' => 'https://www.facebook.com/meetupuy',
+                    'alt' => 'Facebook'
+                ),
+            ),
+    ),
+    'jsconfuy' => array(
+        'id'  =>  'jsconfuy',
+        'titulo' => 'JSConf Uruguay 2014',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '14 y 15/03/2014',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://jsconf.uy',
+        'descripcion' => '',
+        'tags'=>'javascript, frontend, desarrollo',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@JSConfUY',
+                    'uri' => 'https://twitter.com/JSConfUY',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/JSConfUY',
                     'alt' => 'Facebook'
                 ),
             ),
