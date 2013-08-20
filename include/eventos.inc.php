@@ -1,5 +1,18 @@
 <?php
 $anuales = array(
+    'ecommerceday' => array(
+        'id'  =>  'ecommerceday',
+        'titulo' => 'eCommerce day',
+        'lugar' => 'LATU, Montevideo',
+        'fecha' => '21/8/2013',
+        'horario' => '8hs a 17hs',
+        'costo' => 'U$D 200',
+        'link' => 'http://www.ecommerceday.org.uy/2013/',
+        'descripcion' => '',
+        'tags'=>'ecommerce',
+        'links_otros'=>array(
+            )
+    ),
     'encGenexus' => array(
         'id'  =>  'encgenexus',
         'titulo' => 'XXIII Encuentro GeneXus',
