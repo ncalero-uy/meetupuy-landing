@@ -52,6 +52,11 @@ $anuales = array(
                         'uri'=>'https://www.facebook.com/GeneXus.Artech',
                         'alt'=> 'Facebook'
                     ),
+                array(
+                    'txt' => 'Lightning Talks',
+                    'uri' => 'http://www.genexus.com/lightningtalks',
+                    'alt' => 'Lightning Talks'
+                    ),
             )
     ),
     'PyconUY' => array(
@@ -79,7 +84,7 @@ $anuales = array(
     ),
     'techmeetup' => array(
         'id'  =>  'techmeetupuy',
-        'titulo' => 'tech.meetupUY 2013',
+        'titulo' => 'techMeetup UY 2013',
         'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
         'fecha' => '23/11/2013',
         'horario' => '',
@@ -88,6 +93,11 @@ $anuales = array(
         'descripcion' => '',
         'tags'=>'desarrollo, tecnología, IT',
         'links_otros'=>array(
+                array(
+                        'txt'=>'RFP',
+                        'uri'=>'https://docs.google.com/a/centra.com.uy/spreadsheet/viewform?formkey=dEhTbFJPc3NrODV3VkR1dVhJUWRMQmc6MA#gid=0',
+                        'alt'=> 'Request for proposals'
+                    ),
                 array(
                     'txt' => '@meetupUY',
                     'uri' => 'https://twitter.com/meetupUY',
@@ -309,7 +319,8 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://gugmontevideo.wordpress.com/',
         'descripcion' => '',
-        'tags'=>'Genexus'
+        'tags'=>'Genexus',
+        'links_otros' => array(),
     ),
     'usdug' => array(
         'id'  =>  'usdug',
