@@ -334,4 +334,16 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'salesforce, dev'
     ),
+    'pymvd' => array(
+        'id'  =>  'pymvd',
+        'titulo' => 'The Montevideo Python Meetup Group',
+        'subtitulo' => '',
+        'lugar' => 'ver web',
+        'fecha' => '',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/py-mvd/',
+        'descripcion' => '',
+        'tags'=>'python, dev'
+    ),
 );
