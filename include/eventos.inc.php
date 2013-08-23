@@ -146,7 +146,19 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/NET-UY/',
         'descripcion' => '',
-        'tags'=>'.net, C#, SQL, visualStudio, Microsoft'
+        'tags'=>'.net, C#, SQL, visualStudio, Microsoft',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@NetUYMeetup',
+                    'uri' => 'https://twitter.com/NetUYMeetup',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Votar temas',
+                    'uri' => 'http://netuymeetup.uservoice.com/',
+                    'alt' => 'Votar temas'
+                ),
+            ),
     ),
     'mvdjsmeetup' => array(
         'id'  =>  'mvdjsmeetup',
@@ -198,6 +210,11 @@ $mensuales = array(
                     'txt' => '@AgileUY',
                     'uri' => 'https://twitter.com/AgileUy',
                     'alt' => 'twitter'
+                ),
+            array(
+                    'txt' => 'Votar temas',
+                    'uri' => 'https://agileuy.uservoice.com/',
+                    'alt' => 'Votar Temas'
                 ),
             ),
     ),
