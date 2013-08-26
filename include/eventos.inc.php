@@ -1,15 +1,15 @@
 <?php
 $anuales = array(
-    'ecommerceday' => array(
-        'id'  =>  'ecommerceday',
-        'titulo' => 'eCommerce day',
-        'lugar' => 'LATU, Montevideo',
-        'fecha' => '21/8/2013',
-        'horario' => '8hs a 17hs',
-        'costo' => 'U$D 200',
-        'link' => 'http://www.ecommerceday.org.uy/2013/',
-        'descripcion' => '',
-        'tags'=>'ecommerce',
+    'showmethemoney' => array(
+        'id'  =>  'showmethemoney',
+        'titulo' => 'Show me the Money',
+        'lugar' => 'Castillo Pitamiglio, Montevieo',
+        'fecha' => '12/9/2013',
+        'horario' => '9:30hs a 13hs',
+        'costo' => 'U$D 39',
+        'link' => 'https://eventioz.com.ar/e/show-me-the-money--2',
+        'descripcion' => 'organizado por MontevideoValley',
+        'tags'=>'monetizacion',
         'links_otros'=>array(
             )
     ),
