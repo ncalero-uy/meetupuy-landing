@@ -219,16 +219,16 @@ $mensuales = array(
             ),
     ),
 
-    'interactiondesign' => array(
-        'id'  =>  'interactionDesign',
-        'titulo' => 'Interaction Design UY',
+    'IxDA' => array(
+        'id'  =>  'ixda',
+        'titulo' => 'IxDA Montevideo',
         'lugar' => 'CoworkingMVD, Bulevar España 2529 Esq. Libertad, Montevideo',
         'fecha' => '3er martes cada 2 meses',
         'horario' => '19:30 ~ 20:00',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/Interaction-design-Uruguay',
         'descripcion' => '',
-        'tags'=>'interaction Design,UX,content strategy,usability',
+        'tags'=>'interaction Design,UX,UI,content strategy,usability',
         'links_otros'=>array(),
     ),
     'devopsmvd' => array(
