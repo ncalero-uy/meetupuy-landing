@@ -97,6 +97,33 @@ $anuales = array(
                 ),
             ),
     ),
+    'uycg' => array(
+        'id'  =>  'uycg',
+        'titulo' => 'UY!CG',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '29/11/2013',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://uycg.com.uy/',
+        'tags'=>'computer graphics, videogames, motion, animation',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@UYCG',
+                    'uri' => 'https://twitter.com/UYCG',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/EncuentroUyCG',
+                    'alt' => 'Facebook'
+                ),
+                array(
+                    'txt' => 'YouTube',
+                    'uri' => 'http://www.youtube.com/user/EncuentroUYCG',
+                    'alt' => 'youtube'
+                )
+            ),
+    ),
     'jsconfuy' => array(
         'id'  =>  'jsconfuy',
         'titulo' => 'JSConf Uruguay 2014',
