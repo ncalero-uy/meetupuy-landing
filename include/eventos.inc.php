@@ -1,18 +1,5 @@
 <?php
 $anuales = array(
-    'startupweekend' => array(
-        'id'  =>  'startupweekend',
-        'titulo' => 'Startup Weekend',
-        'lugar' => 'LATU, Montevideo',
-        'fecha' => '20, 21 y 22/9/2013',
-        'horario' => '',
-        'costo' => '$ 500',
-        'link' => 'http://montevideo.startupweekend.org/',
-        'descripcion' => '',
-        'tags'=>'startup, hackathon, coding, development',
-        'links_otros'=>array(
-            )
-    ),
     'encGenexus' => array(
         'id'  =>  'encgenexus',
         'titulo' => 'XXIII Encuentro GeneXus',
