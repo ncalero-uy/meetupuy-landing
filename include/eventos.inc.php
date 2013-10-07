@@ -1,38 +1,5 @@
 <?php
 $anuales = array(
-    'encGenexus' => array(
-        'id'  =>  'encgenexus',
-        'titulo' => 'XXIII Encuentro GeneXus',
-        'lugar' => 'Hotel Radisson, Montevideo',
-        'fecha' => '30/9/2013 a 2/10/2013',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://www.genexus.com/encuentro2013',
-        'descripcion' => '',
-        'tags'=>'genexus',
-        'links_otros'=>array(
-                array(
-                        'txt'=>'@GeneXus',
-                        'uri'=>'https://twitter.com/GeneXus',
-                        'alt'=> '@GeneXus'
-                    ),
-                array(
-                        'txt'=>'#GX23',
-                        'uri'=>'https://twitter.com/search/realtime?q=%23GX23&src=typd',
-                        'alt'=> '#GX23'
-                    ),
-                array(
-                        'txt'=>'Facebook',
-                        'uri'=>'https://www.facebook.com/GeneXus.Artech',
-                        'alt'=> 'Facebook'
-                    ),
-                array(
-                    'txt' => 'Lightning Talks',
-                    'uri' => 'http://www.genexus.com/lightningtalks',
-                    'alt' => 'Lightning Talks'
-                    ),
-            )
-    ),
     'PyconUY' => array(
         'id'  =>  'pycon',
         'titulo' => 'PyCon Uruguay 2013',
