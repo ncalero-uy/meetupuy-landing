@@ -23,6 +23,27 @@ $anuales = array(
                 ),
             ),
     ),
+    'MontevideoValley' => array(
+        'id'  =>  'montevideovalley',
+        'titulo' => '6MVDValley',
+        'lugar' => '',
+        'fecha' => '16/11/2013',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://montevideovalley.uy/',
+        'tags'=>'negocios, it, emprendimientos',
+        'descripcion' => '',
+        'links_otros'=>array(
+            /*
+                array(
+                    'txt' => '@PyConUy',
+                    'uri' => 'http://montevideovalley.uy/',
+                    'alt' => 'twitter'
+                ),
+                */
+
+            ),
+    ),
     'techmeetup' => array(
         'id'  =>  'techmeetupuy',
         'titulo' => 'techMeetup UY 2013',
