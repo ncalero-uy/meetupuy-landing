@@ -1,5 +1,33 @@
 <?php
 $anuales = array(
+    'devfest' => array(
+        'id'  =>  'devfest',
+        'titulo' => 'DevFest Montevideo 2013',
+        'lugar' => 'Universidad ORT, Montevideo',
+        'fecha' => '25/10/2013',
+        'horario' => '9:30 a 16:45hs',
+        'costo' => '',
+        'link' => 'https://eventioz.com.ar/e/devfest-montevideo-2013',
+        'tags'=>'google',
+        'descripcion' => '',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'http://gdg.uy/',
+                    'uri' => 'http://gdg.uy/',
+                    'alt' => 'gdg.uy/'
+                ),
+                array(
+                    'txt' => 'Google+',
+                    'uri' => 'https://plus.google.com/u/0/events/cdhbp3itodc8s6sti777ttfjnpg?authkey=CJi38tnfh5i0UA',
+                    'alt' => 'G+'
+                ),
+                array(
+                    'txt' => '@gdguruguay',
+                    'uri' => 'http://twitter.com/gdguruguay',
+                    'alt' => '@gdguruguay'
+                ),
+            ),
+    ),
     'PyconUY' => array(
         'id'  =>  'pycon',
         'titulo' => 'PyCon Uruguay 2013',
