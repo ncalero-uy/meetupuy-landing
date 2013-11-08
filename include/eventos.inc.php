@@ -183,11 +183,23 @@ $mensuales = array(
         'subtitulo' => 'Meetup de Javascript en Montevideo',
         'lugar' => '',
         'fecha' => '1er jueves de los meses pares',
-        'horario' => '19:00',
+        'horario' => '19:30',
         'costo' => 'gratis',
         'link' => 'http://www.meetup.com/mvd-js/',
         'descripcion' => '',
         'tags'=>'javascript, nodeJS, html5, frontend, css'
+    ),
+    'pymvdmeetup' => array(
+        'id'  =>  'pymvdmeetup',
+        'titulo' => 'PYMVD Meetup',
+        'subtitulo' => 'Meetup de Python en Montevideo',
+        'lugar' => '',
+        'fecha' => '3er martes de los meses pares',
+        'horario' => '19:30',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/py-mvd/',
+        'descripcion' => '',
+        'tags'=>'python, django, flask, tornado'
     ),
     'opencoffee' => array(
         'id'  =>  'opencoffee',
