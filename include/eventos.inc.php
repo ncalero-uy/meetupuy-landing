@@ -336,4 +336,16 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'python, dev'
     ),
+    'grails' => array(
+        'id'  =>  'grails',
+        'titulo' => 'Grails UY',
+        'subtitulo' => '',
+        'lugar' => 'ver web',
+        'fecha' => '',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://grails.meetup.uy',
+        'descripcion' => '',
+        'tags'=>'grails'
+    ),
 );
