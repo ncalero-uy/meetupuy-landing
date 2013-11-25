@@ -327,4 +327,17 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'grails'
     ),
+    'mobileuy' => array(
+        'id'  =>  'mobileuy',
+        'titulo' => 'Primer meetup de MobileUY',
+        'subtitulo' => '',
+        'lugar' => 'OneTree office - 18 de julio 1077, piso 9',
+        'fecha' => '09/12/2013',
+        'horario' => '19:00',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/MobileUY',
+        'descripcion' => '',
+        'tags'=>'Objective-C, Android, Windows Phone 8, Phonegap',
+        
+    ),
 );
