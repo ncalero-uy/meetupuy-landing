@@ -329,8 +329,8 @@ $mensuales = array(
     ),
     'mobileuy' => array(
         'id'  =>  'mobileuy',
-        'titulo' => 'Primer meetup de MobileUY',
-        'subtitulo' => '',
+        'titulo' => 'MobileUY',
+        'subtitulo' => 'Primer meetup de Mobile',
         'lugar' => 'OneTree office - 18 de julio 1077, piso 9',
         'fecha' => '09/12/2013',
         'horario' => '19:00',
@@ -338,6 +338,13 @@ $mensuales = array(
         'link' => 'http://www.meetup.com/MobileUY',
         'descripcion' => '',
         'tags'=>'Objective-C, Android, Windows Phone 8, Phonegap',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@MobileUY',
+                    'uri' => 'https://twitter.com/MobileUY',
+                    'alt' => 'twitter'
+                ),
+            ),
         
     ),
 );
