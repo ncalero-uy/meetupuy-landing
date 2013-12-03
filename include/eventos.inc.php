@@ -347,4 +347,13 @@ $mensuales = array(
             ),
         
     ),
+    'clojuremvd' => array(
+        'id'  =>  'clojuremvd',
+        'titulo' => 'Clojure Montevideo',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Clojure-Meetup-Montevideo',
+        'descripcion' => '',
+        'tags'=>'clojure, listp, racket',
+    ),
 );
