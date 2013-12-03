@@ -356,4 +356,13 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'clojure, listp, racket',
     ),
+    'ecommerceuy' => array(
+        'id'  =>  'ecommerceuy',
+        'titulo' => 'Ecommerce UY',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Ecommerce-UY',
+        'descripcion' => '',
+        'tags'=>'ecommerce',
+    ),
 );
