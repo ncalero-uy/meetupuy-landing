@@ -365,4 +365,13 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'ecommerce',
     ),
+     'uyoug' => array(
+        'id'  =>  'uyoug',
+        'titulo' => 'Grupo de usuarios Oracle',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.uyoug.org.uy/',
+        'descripcion' => '',
+        'tags'=>'oracle',
+    ),
 );
