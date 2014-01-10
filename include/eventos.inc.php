@@ -372,6 +372,6 @@ $mensuales = array(
         'costo' => 'gratis',
         'link' => 'http://www.uyoug.org.uy/',
         'descripcion' => '',
-        'tags'=>'oracle',
+        'tags'=>'oracle, DB, BI',
     ),
 );
