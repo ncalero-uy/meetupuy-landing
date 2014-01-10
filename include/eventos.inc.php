@@ -1,55 +1,5 @@
 <?php
 $anuales = array(
-    'techmeetup' => array(
-        'id'  =>  'techmeetupuy',
-        'titulo' => 'techMeetup UY 2013',
-        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '23/11/2013',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://tech.meetup.uy',
-        'descripcion' => '',
-        'tags'=>'desarrollo, tecnología, IT',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@meetupUY',
-                    'uri' => 'https://twitter.com/meetupUY',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'Facebook',
-                    'uri' => 'https://www.facebook.com/meetupuy',
-                    'alt' => 'Facebook'
-                ),
-            ),
-    ),
-    'uycg' => array(
-        'id'  =>  'uycg',
-        'titulo' => 'UY!CG',
-        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '29/11/2013',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://uycg.com.uy/',
-        'tags'=>'computer graphics, videogames, motion, animation',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@UYCG',
-                    'uri' => 'https://twitter.com/UYCG',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'Facebook',
-                    'uri' => 'https://www.facebook.com/EncuentroUyCG',
-                    'alt' => 'Facebook'
-                ),
-                array(
-                    'txt' => 'YouTube',
-                    'uri' => 'http://www.youtube.com/user/EncuentroUYCG',
-                    'alt' => 'youtube'
-                )
-            ),
-    ),
     'jsconfuy' => array(
         'id'  =>  'jsconfuy',
         'titulo' => 'JSConf Uruguay 2014',
@@ -69,6 +19,29 @@ $anuales = array(
                 array(
                     'txt' => 'Facebook',
                     'uri' => 'https://www.facebook.com/JSConfUY',
+                    'alt' => 'Facebook'
+                ),
+            ),
+    ),
+        'techmeetup' => array(
+        'id'  =>  'techmeetupuy',
+        'titulo' => 'techMeetup UY 2014',
+        'lugar' => '',
+        'fecha' => '11/2013',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://tech.meetup.uy',
+        'descripcion' => '',
+        'tags'=>'desarrollo, tecnología, IT',
+        'links_otros'=>array(
+                array(
+                    'txt' => '@meetupUY',
+                    'uri' => 'https://twitter.com/meetupUY',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'Facebook',
+                    'uri' => 'https://www.facebook.com/meetupuy',
                     'alt' => 'Facebook'
                 ),
             ),
