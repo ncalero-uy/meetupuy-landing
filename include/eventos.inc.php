@@ -37,7 +37,8 @@ $anuales = array(
                 array(
                     'txt' => 'RFP',
                     'uri' => 'http://www.rubyconfuruguay.org/en/conference_editions/8/talks/new',
-                    'alt' => 'RFP
+                    'alt' => 'RFP'
+                ),
                 array(
                     'txt' => '@rubyconfuruguay',
                     'uri' => 'https://twitter.com/rubyconfuruguay',
