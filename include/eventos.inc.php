@@ -375,4 +375,13 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'oracle, DB, BI',
     ),
+     'emberjs' => array(
+        'id'  =>  'emberjs',
+        'titulo' => 'Ember.js Montevideo',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Ember-js-Montevideo',
+        'descripcion' => '',
+        'tags'=>'js, emberjs',
+    ),
 );
