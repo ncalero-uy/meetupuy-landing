@@ -260,6 +260,21 @@ $mensuales = array(
         'tags'=>'automation, testing, functional programming',
         'links_otros'=>array(),
     ),
+    
+    'appledevs' => array(
+        'id'  =>  'appledevs',
+        'titulo' => 'Apple Developers - Montevideo',
+        'lugar' => '',
+        'fecha' => '',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Apple-Developers-Montevideo/',
+        'descripcion' => '',
+        'tags'=>'mac, ios, cocoa, osx, xcode',
+        'links_otros'=>array(),
+    ),
+    
+    
     'technbeers' => array(
         'id'  =>  'technbeers',
         'titulo' => 'TechNbeers',
