@@ -125,17 +125,6 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'python, django, flask, tornado'
     ),
-    'opencoffee' => array(
-        'id'  =>  'opencoffee',
-        'titulo' => 'Open Coffee',
-        'lugar' => 'Amaretto Bakery Café',
-        'fecha' => '2o martes de mes',
-        'horario' => '9:00',
-        'costo' => 'gratis',
-        'link' => 'http://opencoffeemvd.org/',
-        'descripcion' => '',
-        'tags' => 'proyectos, negocios, inversion, emprendedores'
-    ),
     'ruby' => array(
         'id'  =>  'rubymeetup',
         'titulo' => 'Ruby Meetup',
@@ -274,6 +263,18 @@ $mensuales = array(
         'links_otros'=>array(),
     ),
     
+    'testinguy' => array(
+        'id'  =>  'testinguy',
+        'titulo' => 'Testing UY',
+        'lugar' => '',
+        'fecha' => '',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Testing-Uy/',
+        'descripcion' => '',
+        'tags'=>'testing, TDD, BDD, QA',
+        'links_otros'=>array(),
+    ),
     
     'technbeers' => array(
         'id'  =>  'technbeers',
