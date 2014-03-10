@@ -391,6 +391,15 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'oracle, DB, BI',
     ),
+    'meteor' => array(
+        'id'  =>  'meteor',
+        'titulo' => 'Meteor Montevideo',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Meteor-Montevideo/',
+        'descripcion' => '',
+        'tags'=>'js, meteor',
+    ),
      'emberjs' => array(
         'id'  =>  'emberjs',
         'titulo' => 'Ember.js Montevideo',
