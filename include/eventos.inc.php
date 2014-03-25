@@ -409,4 +409,22 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'js, emberjs',
     ),
+    'webdesigngroup' => array(
+        'id'  =>  'webdesigngroup',
+        'titulo' => 'Montevideo Web Design Group',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/MWDgroup/',
+        'descripcion' => '',
+        'tags'=>'design, oss, js, css, front-end',
+    ),
+    'beerjs' => array(
+        'id'  =>  'beerjs',
+        'titulo' => 'BeerJS Uruguay',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/beerjsuy/',
+        'descripcion' => '',
+        'tags'=>'beer, js, web-development',
+    ),
 );
