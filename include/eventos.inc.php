@@ -50,6 +50,7 @@ $anuales = array(
                     'alt' => 'Facebook'
                 ),
             ),
+        ),
         'leanstartupmachine' => array(
                 'id'  =>  'leanstartupmachinemontevideo',
                 'titulo' => 'Lean Startup Machine Montevideo 2014',
