@@ -50,6 +50,23 @@ $anuales = array(
                     'alt' => 'Facebook'
                 ),
             ),
+        'leanstartupmachine' => array(
+                'id'  =>  'leanstartupmachinemontevideo',
+                'titulo' => 'Lean Startup Machine Montevideo 2014',
+                'lugar' => 'a definir, Montevideo',
+                'fecha' => '1, 2 y 3 de Agosto de 2014',
+                'horario' => '',
+                'costo' => '',
+                'link' => 'http://l3an.com/1c7WUDJ',
+                'descripcion' => '',
+                'tags'=>'lean startup, emprendedor, desarrollo',
+                'links_otros'=>array(
+                        array(
+                            'txt' => '@scrumJedi',
+                            'uri' => 'https://twitter.com/scrumjedi',
+                            'alt' => 'twitter'
+                        ),
+                    ),            
     ),
         'techmeetup' => array(
         'id'  =>  'techmeetupuy',
