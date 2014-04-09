@@ -23,6 +23,29 @@ $anuales = array(
                 ),
             ),
     ),
+    'openspace' => array(
+      'id' => 'openspace',
+      'titulo' => 'Agile Open Space 2014',
+      'lugar' => 'Universidad Católica del Uruguay',
+      'fecha' => '17/05/2014',
+      'horario' => '',
+      'costo' => 'gratis',
+      'link' => 'http://agile.uy/',
+      'descripcion' => '',
+      'tags'=>'agile, scrum, XP, kanban, metodologias',
+      'links_otros'=>array(
+        array(
+          'txt' => 'meetup',
+          'uri' => 'http://www.meetup.com/AgileUY/',
+          'alt' => 'Agile meetup'
+        ),
+        array(
+          'txt' => '@AgileUY',
+          'uri' => 'https://twitter.com/AgileUy',
+          'alt' => 'twitter'
+        )
+      ),
+    ),
     'rubyconfuy' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay 2014',
