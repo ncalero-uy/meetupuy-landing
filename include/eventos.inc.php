@@ -1,51 +1,6 @@
 <?php
 $anuales = array(
-    'jsconfuy' => array(
-        'id'  =>  'jsconfuy',
-        'titulo' => 'JSConf Uruguay 2014',
-        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '14 y 15/03/2014',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://jsconf.uy',
-        'descripcion' => '',
-        'tags'=>'javascript, frontend, desarrollo',
-        'links_otros'=>array(
-                array(
-                    'txt' => '@JSConfUY',
-                    'uri' => 'https://twitter.com/JSConfUY',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'Facebook',
-                    'uri' => 'https://www.facebook.com/JSConfUY',
-                    'alt' => 'Facebook'
-                ),
-            ),
-    ),
-    'openspace' => array(
-      'id' => 'openspace',
-      'titulo' => 'Agile Open Space 2014',
-      'lugar' => 'Universidad Católica del Uruguay',
-      'fecha' => '17/05/2014',
-      'horario' => '',
-      'costo' => 'gratis',
-      'link' => 'http://agile.uy/',
-      'descripcion' => '',
-      'tags'=>'agile, scrum, XP, kanban, metodologias',
-      'links_otros'=>array(
-        array(
-          'txt' => 'meetup',
-          'uri' => 'http://www.meetup.com/AgileUY/',
-          'alt' => 'Agile meetup'
-        ),
-        array(
-          'txt' => '@AgileUY',
-          'uri' => 'https://twitter.com/AgileUy',
-          'alt' => 'twitter'
-        )
-      ),
-    ),
+
     'rubyconfuy' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay 2014',
@@ -74,6 +29,29 @@ $anuales = array(
                 ),
             ),
         ),
+    'openspace' => array(
+      'id' => 'openspace',
+      'titulo' => 'Agile Open Space 2014',
+      'lugar' => 'Universidad Católica del Uruguay',
+      'fecha' => '17/05/2014',
+      'horario' => '',
+      'costo' => 'gratis',
+      'link' => 'http://agile.uy/',
+      'descripcion' => '',
+      'tags'=>'agile, scrum, XP, kanban, metodologias',
+      'links_otros'=>array(
+        array(
+          'txt' => 'meetup',
+          'uri' => 'http://www.meetup.com/AgileUY/',
+          'alt' => 'Agile meetup'
+        ),
+        array(
+          'txt' => '@AgileUY',
+          'uri' => 'https://twitter.com/AgileUy',
+          'alt' => 'twitter'
+        )
+      ),
+    ),
         'leanstartupmachine' => array(
                 'id'  =>  'leanstartupmachinemontevideo',
                 'titulo' => 'Lean Startup Machine Montevideo 2014',
