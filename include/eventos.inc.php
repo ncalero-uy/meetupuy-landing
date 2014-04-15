@@ -29,6 +29,21 @@ $anuales = array(
                 ),
             ),
         ),
+     'perconauniversity' => array(
+        'id'  =>  'perconauniversity',
+        'titulo' => 'Percona University Montevideo',
+        'lugar' => 'a confirmar',
+        'fecha' => '29/4/2014',
+        'horario' => '8:00 a 18:30',
+        'costo' => 'gratis',
+        'link' => 'https://www.eventbrite.com/e/2014-percona-university-montevideo-tickets-8740207195',
+        'descripcion' => '',
+        'tags'=>'bd, dev, ha',
+        'links_otros'=>array(
+              
+               
+            ),
+        ),
     'owasp2013' => array(
         'id'  =>  'owasp',
         'titulo' => 'OWASP Latam Tour 2014',
