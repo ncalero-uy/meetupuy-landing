@@ -104,6 +104,21 @@ $anuales = array(
                         ),
                     ),            
     ),
+     'netuyconf' => array(
+                'id'  =>  'netuyconf',
+                'titulo' => '.NET UY Conf',
+                'lugar' => 'a definir, Montevideo',
+                'fecha' => '26, 27 Setiembre de 2014',
+                'horario' => '',
+                'costo' => '',
+                'link' => 'http://netuyconf.com/',
+                'descripcion' => '',
+                'tags'=>'.net, microsoft, mobile, web',
+                'links_otros'=>array(
+                        
+                    ),            
+    ),
+    
         'techmeetup' => array(
         'id'  =>  'techmeetupuy',
         'titulo' => 'techMeetup UY 2014',
