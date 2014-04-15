@@ -34,7 +34,7 @@ $anuales = array(
         'titulo' => 'OWASP Latam Tour 2014',
         'lugar' => 'Parque Tecnológico y de Eventos del LATU',
         'fecha' => '30/4/2014',
-        'horario' => '',
+        'horario' => '9:00 a 17:00',
         'costo' => 'gratis',
         'link' => 'https://www.owasp.org/index.php/LatamTour2014#tab=URUGUAY',
         'descripcion' => '',
