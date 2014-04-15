@@ -113,7 +113,7 @@ $anuales = array(
                 'costo' => '',
                 'link' => 'http://netuyconf.com/',
                 'descripcion' => '',
-                'tags'=>'.net, microsoft, mobile, web',
+                'tags'=>'.net, azure, sharepoint, mobile, mvc',
                 'links_otros'=>array(
                         
                     ),            
