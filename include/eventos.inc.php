@@ -1,34 +1,7 @@
 <?php
 $anuales = array(
 
-    'rubyconfuy' => array(
-        'id'  =>  'rubyconfuy',
-        'titulo' => 'RubyConf Uruguay 2014',
-        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
-        'fecha' => '23 y 24/03/2014',
-        'horario' => '',
-        'costo' => '',
-        'link' => 'http://www.rubyconfuruguay.org/',
-        'descripcion' => '',
-        'tags'=>'ruby, desarrollo',
-        'links_otros'=>array(
-                array(
-                    'txt' => 'RFP',
-                    'uri' => 'http://www.rubyconfuruguay.org/en/conference_editions/8/talks/new',
-                    'alt' => 'RFP'
-                ),
-                array(
-                    'txt' => '@rubyconfuruguay',
-                    'uri' => 'https://twitter.com/rubyconfuruguay',
-                    'alt' => 'twitter'
-                ),
-                array(
-                    'txt' => 'rubyconfuruguay',
-                    'uri' => 'https://www.facebook.com/rubyconfuruguay',
-                    'alt' => 'Facebook'
-                ),
-            ),
-        ),
+
      'perconauniversity' => array(
         'id'  =>  'perconauniversity',
         'titulo' => 'Percona University Montevideo',
@@ -86,6 +59,35 @@ $anuales = array(
         )
       ),
     ),
+    'rubyconfuy' => array(
+        'id'  =>  'rubyconfuy',
+        'titulo' => 'RubyConf Uruguay 2014',
+        'lugar' => 'Auditorio Torre de las Telecomunicaciones, Montevideo',
+        'fecha' => '23 y 24/05/2014',
+        'horario' => '',
+        'costo' => '',
+        'link' => 'http://www.rubyconfuruguay.org/',
+        'descripcion' => '',
+        'tags'=>'ruby, desarrollo',
+        'links_otros'=>array(
+                array(
+                    'txt' => 'RFP',
+                    'uri' => 'http://www.rubyconfuruguay.org/en/conference_editions/8/talks/new',
+                    'alt' => 'RFP'
+                ),
+                array(
+                    'txt' => '@rubyconfuruguay',
+                    'uri' => 'https://twitter.com/rubyconfuruguay',
+                    'alt' => 'twitter'
+                ),
+                array(
+                    'txt' => 'rubyconfuruguay',
+                    'uri' => 'https://www.facebook.com/rubyconfuruguay',
+                    'alt' => 'Facebook'
+                ),
+            ),
+        ),
+        
         'leanstartupmachine' => array(
                 'id'  =>  'leanstartupmachinemontevideo',
                 'titulo' => 'Lean Startup Machine Montevideo 2014',
