@@ -59,6 +59,20 @@ $anuales = array(
         )
       ),
     ),
+    'tecnologica' => array(
+      'id' => 'tecnologica',
+      'titulo' => 'Tecnológica',
+      'descripcion' => 'Feria y congreso de tecnologías TIC en Uruguay',
+      'lugar' => 'Parque de Exposiciones del LATU',
+      'fecha' => '14,15 y 16/05/2014',
+      'horario' => '',
+      'costo' => 'gratis',
+      'link' => 'http://www.tecnologica.com.uy/',
+      'descripcion' => '',
+      'tags'=>'IT',
+      'links_otros'=>array(
+      ),
+    ),
     'rubyconfuy' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay 2014',
