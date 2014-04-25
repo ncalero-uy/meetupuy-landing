@@ -73,6 +73,19 @@ $anuales = array(
       'links_otros'=>array(
       ),
     ),
+    'railsgirls' => array(
+        'id'  =>  'railsgirls',
+        'titulo' => 'RubyConf Uruguay 2014',
+        'lugar' => 'Rails Girls Montevideo',
+        'fecha' => '11 y 22/05/2014',
+        'horario' => '',
+        'costo' => 'gratis',
+        'link' => 'http://railsgirls.com/montevideo',
+        'descripcion' => '',
+        'tags'=>'ruby, desarrollo',
+        'links_otros'=>array(
+            ),
+        ),
     'rubyconfuy' => array(
         'id'  =>  'rubyconfuy',
         'titulo' => 'RubyConf Uruguay 2014',
