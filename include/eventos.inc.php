@@ -1,11 +1,9 @@
 <?php
 $anuales = array(
-
-
      'perconauniversity' => array(
         'id'  =>  'perconauniversity',
         'titulo' => 'Percona University Montevideo',
-        'lugar' => 'a confirmar',
+        'lugar' => 'Radisson Montevideo, Salón Picasso - 4o piso',
         'fecha' => '29/4/2014',
         'horario' => '8:00 a 18:30',
         'costo' => 'gratis',
