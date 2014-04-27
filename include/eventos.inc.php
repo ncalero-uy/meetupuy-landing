@@ -148,9 +148,9 @@ $anuales = array(
     
         'techmeetup' => array(
         'id'  =>  'techmeetupuy',
-        'titulo' => 'techMeetup UY 2014',
+        'titulo' => 'techMeetup UY v2014',
         'lugar' => '',
-        'fecha' => '11/2013',
+        'fecha' => '15/11/2013',
         'horario' => '',
         'costo' => '',
         'link' => 'http://tech.meetup.uy',
