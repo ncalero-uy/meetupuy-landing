@@ -73,7 +73,7 @@ $anuales = array(
     ),
     'railsgirls' => array(
         'id'  =>  'railsgirls',
-        'titulo' => 'RubyConf Uruguay 2014',
+        'titulo' => 'Rails Girls Montevideo',
         'lugar' => 'Rails Girls Montevideo',
         'fecha' => '11 y 22/05/2014',
         'horario' => '',
