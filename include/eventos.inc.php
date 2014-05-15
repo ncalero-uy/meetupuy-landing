@@ -1,39 +1,5 @@
 <?php
 $anuales = array(
-     'perconauniversity' => array(
-        'id'  =>  'perconauniversity',
-        'titulo' => 'Percona University Montevideo',
-        'lugar' => 'Radisson Montevideo, Salón Picasso - 4o piso',
-        'fecha' => '29/4/2014',
-        'horario' => '8:00 a 18:30',
-        'costo' => 'gratis',
-        'link' => 'https://www.eventbrite.com/e/2014-percona-university-montevideo-tickets-8740207195',
-        'descripcion' => '',
-        'tags'=>'bd, dev, ha',
-        'links_otros'=>array(
-              
-               
-            ),
-        ),
-    'owasp2013' => array(
-        'id'  =>  'owasp',
-        'titulo' => 'OWASP Latam Tour 2014',
-        'lugar' => 'Parque Tecnológico y de Eventos del LATU',
-        'fecha' => '30/4/2014',
-        'horario' => '9:00 a 17:00',
-        'costo' => 'gratis',
-        'link' => 'https://www.owasp.org/index.php/LatamTour2014#tab=URUGUAY',
-        'descripcion' => '',
-        'tags'=>'seguridad',
-        'links_otros'=>array(
-                array(
-                    'txt' => 'Flyer',
-                    'uri' => 'https://dl.dropboxusercontent.com/u/7029444/Flyer%20OWASP%20Latam%20Tour%202014%20Conferencias.png',
-                    'alt' => 'Flyer'
-                ),
-               
-            ),
-        ),
     'openspace' => array(
       'id' => 'openspace',
       'titulo' => 'Agile Open Space 2014',
