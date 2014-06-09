@@ -355,6 +355,15 @@ $mensuales = array(
         'descripcion' => '',
         'tags'=>'clojure, listp, racket',
     ),
+    'freelancers' => array(
+        'id'  =>  'freelancers',
+        'titulo' => 'Montevideo Freelancers Meetup',
+        'subtitulo' => '',
+        'costo' => 'gratis',
+        'link' => 'http://www.meetup.com/Montevideo-Freelancers-Meetup/',
+        'descripcion' => 'Meetup para freelancers de todo tipo de forma, color y silueta. Nos juntamos a tomar una, hacer catársis y pensar en cosas lindas para crear.',
+        'tags'=>'design, devs, freelancing, it, coworking, communication, marketing',
+    ),
     'ecommerceuy' => array(
         'id'  =>  'ecommerceuy',
         'titulo' => 'Ecommerce UY',
