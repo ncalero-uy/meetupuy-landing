@@ -18,18 +18,27 @@ $anuales = array(
                         ),
                     ),            
     ),
-     'netuyconf' => array(
-                'id'  =>  'netuyconf',
-                'titulo' => '.NET UY Conf',
-                'lugar' => 'a definir, Montevideo',
-                'fecha' => '26, 27 Setiembre de 2014',
+     'netconfuy' => array(
+                'id'  =>  'netconfuy',
+                'titulo' => '.NET Conf UY',
+                'lugar' => 'Auditorio Antel, Montevideo',
+                'fecha' => '3 y 4 de Octubre de 2014',
                 'horario' => '',
                 'costo' => '',
-                'link' => 'http://netuyconf.com/',
+                'link' => 'http://netconf.uy/',
                 'descripcion' => '',
-                'tags'=>'.net, azure, sharepoint, mobile, mvc',
+                'tags'=>'.net, azure, sharepoint, mobile, mvc, c#, aop, sql, windows 8, windows phone, xamarin, internet of things, visual studio',
                 'links_otros'=>array(
-                        
+						array(
+                        'txt' => '@NETUYConf',
+						'uri' => 'https://twitter.com/NETConfUY',
+						'alt' => 'twitter'
+						),
+						array(
+							'txt' => 'Facebook',
+							'uri' => 'https://www.facebook.com/NETConfUY',
+							'alt' => 'Facebook'
+                ),
                     ),            
     ),
     
