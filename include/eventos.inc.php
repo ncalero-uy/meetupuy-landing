@@ -30,7 +30,7 @@ $anuales = array(
                 'tags'=>'.net, azure, sharepoint, mobile, mvc, c#, aop, sql, windows 8, windows phone, xamarin, internet of things, visual studio',
                 'links_otros'=>array(
 						array(
-                        'txt' => '@NETUYConf',
+                        'txt' => '@NETConfUY',
 						'uri' => 'https://twitter.com/NETConfUY',
 						'alt' => 'twitter'
 						),
@@ -70,7 +70,7 @@ $anuales = array(
 $mensuales = array(
     'dotnetuy' => array(
         'id'  =>  'dotnetuy',
-        'titulo' => '.Net UY',
+        'titulo' => '.Net Meetup UY',
         'subtitulo' => '',
         'lugar' => '',
         'fecha' => '1er martes de mes',
@@ -81,7 +81,7 @@ $mensuales = array(
         'tags'=>'.net, C#, SQL, visualStudio, Microsoft',
         'links_otros'=>array(
                 array(
-                    'txt' => '@NetUYMeetup',
+                    'txt' => '@NetMeetupUY',
                     'uri' => 'https://twitter.com/NetUYMeetup',
                     'alt' => 'twitter'
                 ),
