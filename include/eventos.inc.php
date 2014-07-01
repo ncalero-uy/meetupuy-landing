@@ -1,5 +1,28 @@
 <?php
 $anuales = array(
+	'socialmediadayuy' => array(
+                'id'  =>  'socialmediadayuy',
+                'titulo' => 'Social Media Day Uy',
+                'lugar' => 'Movie Center',
+                'fecha' => '23 de Julio',
+                'horario' => '-',
+                'costo' => '-',
+                'link' => 'http://www.socialmediaday.com.uy/',
+                'descripcion' => '',
+                'tags'=>'social media',
+                'links_otros'=>array(
+                        array(
+                            'txt' => '@smdayUY',
+                            'uri' => 'https://twitter.com/smdayUY',
+                            'alt' => 'twitter'
+                        ),
+                        array(
+                            'txt' => 'Facebook',
+                            'uri' => 'https://www.facebook.com/pages/Social-Media-Day-UY/143729369165748',
+                            'alt' => 'facebook'
+                        ),
+                    ),            
+    ),
         'leanstartupmachine' => array(
                 'id'  =>  'leanstartupmachinemontevideo',
                 'titulo' => 'Lean Startup Machine Montevideo 2014',
