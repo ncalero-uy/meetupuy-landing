@@ -105,7 +105,7 @@ $mensuales = array(
         'links_otros'=>array(
                 array(
                     'txt' => '@NetMeetupUY',
-                    'uri' => 'https://twitter.com/NetUYMeetup',
+                    'uri' => 'https://twitter.com/NETMeetupUY',
                     'alt' => 'twitter'
                 ),
                 array(
