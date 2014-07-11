@@ -41,6 +41,29 @@ $anuales = array(
                         ),
                     ),            
     ),
+     'uyoug' => array(
+				'id'  =>  'uyoug',
+				'titulo' => 'Montevideo OTN day 2014 - Grupo de usuarios Oracle',
+				'lugar' => 'Universidad ORT sede Centro, Montevideo',
+				'fecha' => '14 y 15 de Agosto de 2014',
+				'horario' => '9 a 18hs',
+				'costo' => '',
+				'link' => 'http://www.uyoug.org.uy/',
+				'descripcion' => 'Conferencia y laboratorios (OVM, upgrade y RAC Attack)',
+				'tags'=>'oracle, bases de datos, desarrollo, herramientas, ti',
+                'links_otros'=>array(
+                        array(
+                            'txt' => '@uyoug',
+                            'uri' => 'https://twitter.com/uyoug',
+                            'alt' => 'twitter'
+						),
+						array(
+							'txt' => 'Facebook',
+							'uri' => 'https://www.facebook.com/groups/uyoug/',
+							'alt' => 'Facebook'
+                        ),
+                    ),            
+    ),
      'netconfuy' => array(
                 'id'  =>  'netconfuy',
                 'titulo' => '.NET Conf UY',
@@ -64,7 +87,7 @@ $anuales = array(
                 ),
                     ),            
     ),
-    
+ 
         'techmeetup' => array(
         'id'  =>  'techmeetupuy',
         'titulo' => 'techMeetup UY v2014',
@@ -404,15 +427,6 @@ $mensuales = array(
         'link' => 'http://www.meetup.com/Ecommerce-UY',
         'descripcion' => '',
         'tags'=>'ecommerce',
-    ),
-     'uyoug' => array(
-        'id'  =>  'uyoug',
-        'titulo' => 'Grupo de usuarios Oracle',
-        'subtitulo' => '',
-        'costo' => 'gratis',
-        'link' => 'http://www.uyoug.org.uy/',
-        'descripcion' => '',
-        'tags'=>'oracle, DB, BI',
     ),
     'meteor' => array(
         'id'  =>  'meteor',
